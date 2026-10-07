@@ -1,0 +1,46 @@
+{
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.rulers": [100],
+  "editor.formatOnSave": false,
+  "[markdown]": {
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": {
+      "comments": "off",
+      "strings": "off",
+      "other": "off"
+    }
+  },
+  "search.exclude": {
+    "**/docs/tracking/state/log.jsonl": true,
+    "**/tmp/agent-runs": true
+  },
+  "remote.portsAttributes": {
+    "443": {
+      "label": "Knowoff web app (nginx, app.knowoff.local)",
+      "onAutoForward": "openPreview"
+    },
+    "80": {
+      "label": "Knowoff web app (nginx, http redirect)",
+      "onAutoForward": "ignore"
+    }
+  },
+  // No system Chrome on this box, only snap Chromium — propagates to all
+  // Dart/Flutter processes the extension spawns, including device polling.
+  // Project SDK meets client/pubspec.yaml; see client/README.md.
+  "dart.flutterSdkPath": ".tools/flutter",
+  "dart.env": {
+    "CHROME_EXECUTABLE": "/snap/bin/chromium"
+  },
+  // Skills (.agents/skills) and instructions (.github/instructions) live in
+  // built-in supported locations; the deprecated *Locations settings were removed.
+  "chat.useAgentSkills": true,
+  "github.copilot.chat.promptFileContextProvider.enabled": true,
+  // codeGeneration/testGeneration instructions settings are deprecated (VS Code 1.102).
+  // AGENTS.md + .github/copilot-instructions.md load automatically; test rules moved to
+  // .github/instructions/tests.instructions.md so they only apply to test files.
+  "github.copilot.chat.reviewSelection.instructions": [
+    { "file": ".agents/skills/code-review/SKILL.md" }
+  ]
+}

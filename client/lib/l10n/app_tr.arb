@@ -1,0 +1,791 @@
+{
+  "@@locale": "tr",
+  "textModeBriefing": "Toplantıyı Kaçırdım",
+  "textModeScale": "Gizli Ölçek",
+  "textModeRoom": "Yer Aç",
+  "textModeBargains": "Kötü Takaslar",
+  "textModeTop": "Üstüne Koy",
+  "textChooseMode": "Bir mod seç",
+  "textContentLanguage": "İçerik dili",
+  "textPack": "Paket",
+  "textUnavailable": "Bu mod henüz kullanılamıyor.",
+  "textWithdrawn": "Son modun kullanılamıyor. Devam etmek için kullanılabilir bir mod seç.",
+  "textConnect": "Kullanılabilir modları kontrol et",
+  "textCreate": "Oda kur",
+  "textJoin": "Odaya katıl",
+  "textConfirm": "Hamleyi onayla",
+  "textPreview": "Hamleni gözden geçir",
+  "textCancel": "İptal",
+  "textRespond": "Yanıtla",
+  "textPlace": "Yerleştir",
+  "textReplace": "Değiştir",
+  "textOffer": "Takas öner",
+  "textTop": "Üstüne koy",
+  "textAccept": "Takası kabul et",
+  "textRefuse": "Takası reddet",
+  "textReady": "Hazırım",
+  "textStart": "Maçı başlat",
+  "textLeave": "Ayrıl",
+  "textKeepWaiting": "Beklemeye devam et",
+  "textChangeMode": "Mod değiştir",
+  "textWaiting": "Tam oyuncu masası bekleniyor",
+  "textSync": "Maç geçmişi eşitleniyor…",
+  "textUpgrade": "Devam etmek için uygulamayı güncelle. Sunucu farklı bir oyun sürümü kullanıyor.",
+  "textStale": "Masa değişti. Güncel durum yüklenirken hamlen temizlendi.",
+  "textError": "İstek tamamlanamadı. Lütfen tekrar dene.",
+  "textUnknownPrompt": "Ortak ipucu rolün için gizli kalır.",
+  "textBoard": "Ortak masa",
+  "textHistory": "Ortak geçmiş",
+  "textHand": "Elindeki kartlar",
+  "textDraw": "Bir kart çek",
+  "textRating": "Puan",
+  "textSlot": "Yer",
+  "textTarget": "İstediğin açık kartı seç",
+  "textSystem": "Sistem",
+  "textSpectating": "İzleyicisin. Özel kartlar ve ipuçları temizlendi.",
+  "textRetry": "Aynı isteği yeniden dene",
+  "textRematch": "Yeni maç için ayarlara dön",
+  "textChat": "Mesaj",
+  "textSend": "Gönder",
+  "textPoke": "Dürt",
+  "textVote": "Oy ver",
+  "textAbstain": "Oy seçilmedi",
+  "textReadyHint": "Hazırım seçimi bu ayarları ve mevcut oyuncuları onaylar. Değişiklikler herkesin onayını kaldırır.",
+  "textPrivate": "Özel ipucu",
+  "textResults": "Sonuçlar",
+  "textOfferPending": "Takas, alıcısının yanıtını bekliyor.",
+  "textDeadline": "Sunucu süresi",
+  "textRoomCode": "Oda kodu",
+  "textQuickPlay": "Hızlı Oyun",
+  "textLocalRoom": "Yerel Oda",
+  "textReturnMenu": "Menüye dön",
+  "textPreviousPage": "Önceki sayfa",
+  "textNextPage": "Sonraki sayfa",
+  "textRules": "Kurallar",
+  "textPlayers": "Oyuncular",
+  "textRewardsOn": "Ödüllere uygun",
+  "textRewardsOff": "Bu maçta ödül yok",
+  "textBriefingInstruction": "Yanıt olarak bir kart oyna.",
+  "textScaleInstruction": "Bir kartı 1 ile 5 arasında bir dereceye yerleştir.",
+  "textRoomInstruction": "Çantadaki bir yuvayı değiştir. Çıkan kart açık geçmişte kalır.",
+  "textBargainsInstruction": "Başka bir oyuncunun sergilediği kart için teklif yap. Kabul edebilir veya reddedebilir.",
+  "textTopInstruction": "Mevcut en üst kartın üzerine bir kart ekle.",
+  "textRunoff": "İkinci oylama",
+  "textAutomatic": "Otomatik",
+  "textSeed": "Başlangıç kartları",
+  "textDisconnected": "Bağlantı kesildi",
+  "textCount": "Sayı",
+  "textRound": "Tur",
+  "textTurn": "Sıra",
+  "textSettlement": "Hesabına işlenen sonuç",
+  "textPoints": "Puan",
+  "textLeaderboardCounted": "Liderlik tablosuna sayıldı",
+  "textLeaderboardUncounted": "Liderlik tablosuna sayılmadı",
+  "textAcknowledge": "Tamam",
+  "textAwardVote": "Doğru oy",
+  "textAwardSurvival": "Oylamadan sağ çıktı",
+  "textAwardCompleted": "Maç tamamlandı",
+  "textAwardWin": "Takım galibiyeti",
+  "textAwardFirstWin": "Günün ilk galibiyeti",
+  "@textModeBriefing": {
+    "description": "Text mode interface: textModeBriefing"
+  },
+  "@textModeScale": {
+    "description": "Text mode interface: textModeScale"
+  },
+  "@textModeRoom": {
+    "description": "Text mode interface: textModeRoom"
+  },
+  "@textModeBargains": {
+    "description": "Text mode interface: textModeBargains"
+  },
+  "@textModeTop": {
+    "description": "Text mode interface: textModeTop"
+  },
+  "@textChooseMode": {
+    "description": "Text mode interface: textChooseMode"
+  },
+  "@textContentLanguage": {
+    "description": "Text mode interface: textContentLanguage"
+  },
+  "@textPack": {
+    "description": "Text mode interface: textPack"
+  },
+  "@textUnavailable": {
+    "description": "Text mode interface: textUnavailable"
+  },
+  "@textWithdrawn": {
+    "description": "Text mode interface: textWithdrawn"
+  },
+  "@textConnect": {
+    "description": "Text mode interface: textConnect"
+  },
+  "@textCreate": {
+    "description": "Text mode interface: textCreate"
+  },
+  "@textJoin": {
+    "description": "Text mode interface: textJoin"
+  },
+  "@textConfirm": {
+    "description": "Text mode interface: textConfirm"
+  },
+  "@textPreview": {
+    "description": "Text mode interface: textPreview"
+  },
+  "@textCancel": {
+    "description": "Text mode interface: textCancel"
+  },
+  "@textRespond": {
+    "description": "Text mode interface: textRespond"
+  },
+  "@textPlace": {
+    "description": "Text mode interface: textPlace"
+  },
+  "@textReplace": {
+    "description": "Text mode interface: textReplace"
+  },
+  "@textOffer": {
+    "description": "Text mode interface: textOffer"
+  },
+  "@textTop": {
+    "description": "Text mode interface: textTop"
+  },
+  "@textAccept": {
+    "description": "Text mode interface: textAccept"
+  },
+  "@textRefuse": {
+    "description": "Text mode interface: textRefuse"
+  },
+  "@textReady": {
+    "description": "Text mode interface: textReady"
+  },
+  "@textStart": {
+    "description": "Text mode interface: textStart"
+  },
+  "@textLeave": {
+    "description": "Text mode interface: textLeave"
+  },
+  "@textKeepWaiting": {
+    "description": "Text mode interface: textKeepWaiting"
+  },
+  "@textChangeMode": {
+    "description": "Text mode interface: textChangeMode"
+  },
+  "@textWaiting": {
+    "description": "Text mode interface: textWaiting"
+  },
+  "@textSync": {
+    "description": "Text mode interface: textSync"
+  },
+  "@textUpgrade": {
+    "description": "Text mode interface: textUpgrade"
+  },
+  "@textStale": {
+    "description": "Text mode interface: textStale"
+  },
+  "@textError": {
+    "description": "Text mode interface: textError"
+  },
+  "@textUnknownPrompt": {
+    "description": "Text mode interface: textUnknownPrompt"
+  },
+  "@textBoard": {
+    "description": "Text mode interface: textBoard"
+  },
+  "@textHistory": {
+    "description": "Text mode interface: textHistory"
+  },
+  "@textHand": {
+    "description": "Text mode interface: textHand"
+  },
+  "@textDraw": {
+    "description": "Text mode interface: textDraw"
+  },
+  "@textRating": {
+    "description": "Text mode interface: textRating"
+  },
+  "@textSlot": {
+    "description": "Text mode interface: textSlot"
+  },
+  "@textTarget": {
+    "description": "Text mode interface: textTarget"
+  },
+  "@textSystem": {
+    "description": "Text mode interface: textSystem"
+  },
+  "@textSpectating": {
+    "description": "Text mode interface: textSpectating"
+  },
+  "@textRetry": {
+    "description": "Text mode interface: textRetry"
+  },
+  "@textRematch": {
+    "description": "Text mode interface: textRematch"
+  },
+  "@textChat": {
+    "description": "Text mode interface: textChat"
+  },
+  "@textSend": {
+    "description": "Text mode interface: textSend"
+  },
+  "@textPoke": {
+    "description": "Text mode interface: textPoke"
+  },
+  "@textVote": {
+    "description": "Text mode interface: textVote"
+  },
+  "@textAbstain": {
+    "description": "Text mode interface: textAbstain"
+  },
+  "@textReadyHint": {
+    "description": "Text mode interface: textReadyHint"
+  },
+  "@textPrivate": {
+    "description": "Text mode interface: textPrivate"
+  },
+  "@textResults": {
+    "description": "Text mode interface: textResults"
+  },
+  "@textOfferPending": {
+    "description": "Text mode interface: textOfferPending"
+  },
+  "@textDeadline": {
+    "description": "Text mode interface: textDeadline"
+  },
+  "@textRoomCode": {
+    "description": "Text mode interface: textRoomCode"
+  },
+  "@textQuickPlay": {
+    "description": "Text mode interface: textQuickPlay"
+  },
+  "@textLocalRoom": {
+    "description": "Text mode interface: textLocalRoom"
+  },
+  "@textReturnMenu": {
+    "description": "Text mode interface: textReturnMenu"
+  },
+  "@textPreviousPage": {
+    "description": "Public evidence paging control."
+  },
+  "@textNextPage": {
+    "description": "Public evidence paging control."
+  },
+  "@textRules": {
+    "description": "Text match interface: textRules."
+  },
+  "@textPlayers": {
+    "description": "Text match interface: textPlayers."
+  },
+  "@textRewardsOn": {
+    "description": "Text match interface: textRewardsOn."
+  },
+  "@textRewardsOff": {
+    "description": "Text match interface: textRewardsOff."
+  },
+  "@textBriefingInstruction": {
+    "description": "Text match interface: textBriefingInstruction."
+  },
+  "@textScaleInstruction": {
+    "description": "Text match interface: textScaleInstruction."
+  },
+  "@textRoomInstruction": {
+    "description": "Text match interface: textRoomInstruction."
+  },
+  "@textBargainsInstruction": {
+    "description": "Text match interface: textBargainsInstruction."
+  },
+  "@textTopInstruction": {
+    "description": "Text match interface: textTopInstruction."
+  },
+  "@textRunoff": {
+    "description": "Text match interface: textRunoff."
+  },
+  "@textAutomatic": {
+    "description": "Text match interface: textAutomatic."
+  },
+  "@textSeed": {
+    "description": "Text match interface: textSeed."
+  },
+  "@textDisconnected": {
+    "description": "Text match interface: textDisconnected."
+  },
+  "@textCount": {
+    "description": "Text match interface: textCount."
+  },
+  "@textRound": {
+    "description": "Text match interface: textRound."
+  },
+  "@textTurn": {
+    "description": "Text match interface: textTurn."
+  },
+  "@textSettlement": {
+    "description": "Private text match receipt: textSettlement."
+  },
+  "@textPoints": {
+    "description": "Private text match receipt: textPoints."
+  },
+  "@textLeaderboardCounted": {
+    "description": "Private text match receipt: textLeaderboardCounted."
+  },
+  "@textLeaderboardUncounted": {
+    "description": "Private text match receipt: textLeaderboardUncounted."
+  },
+  "@textAcknowledge": {
+    "description": "Private text match receipt: textAcknowledge."
+  },
+  "@textAwardVote": {
+    "description": "Private text match receipt: textAwardVote."
+  },
+  "@textAwardSurvival": {
+    "description": "Private text match receipt: textAwardSurvival."
+  },
+  "@textAwardCompleted": {
+    "description": "Private text match receipt: textAwardCompleted."
+  },
+  "@textAwardWin": {
+    "description": "Private text match receipt: textAwardWin."
+  },
+  "@textAwardFirstWin": {
+    "description": "Private text match receipt: textAwardFirstWin."
+  },
+  "textAutoPass": "Otomatik Pas",
+  "@textAutoPass": {
+    "description": "Public text action evidence: textAutoPass."
+  },
+  "textReasonTimeout": "Süre doldu",
+  "@textReasonTimeout": {
+    "description": "Public text action evidence: textReasonTimeout."
+  },
+  "textReasonDisconnect": "Bağlantısı kesilen oyuncu",
+  "@textReasonDisconnect": {
+    "description": "Public text action evidence: textReasonDisconnect."
+  },
+  "textReasonNoRecipient": "Uygun alıcı yok",
+  "@textReasonNoRecipient": {
+    "description": "Public text action evidence: textReasonNoRecipient."
+  },
+  "textReasonTransition": "Aşama sona erdi",
+  "@textReasonTransition": {
+    "description": "Public text action evidence: textReasonTransition."
+  },
+  "textInterrupted": "Maç kesildi",
+  "@textInterrupted": {
+    "description": "Authoritative match verdict: textInterrupted."
+  },
+  "textLowPopulation": "Maç az oyuncuyla sona erdi",
+  "@textLowPopulation": {
+    "description": "Authoritative match verdict: textLowPopulation."
+  },
+  "textPrototype": "Prototip oturumu · ödül veya sıralama katkısı yok",
+  "@textPrototype": {
+    "description": "Text mode interface: textPrototype"
+  },
+  "textPersistencePending": "Hamleniz kaydedilmeyi bekliyor. Aynı isteği yeniden deneyin.",
+  "@textPersistencePending": {
+    "description": "Text mode interface: textPersistencePending"
+  },
+  "textRateLimited": "Çok fazla istek. Bekleyip aynı isteği yeniden deneyin.",
+  "@textRateLimited": {
+    "description": "Text mode interface: textRateLimited"
+  },
+  "textChatHidden": "Mesaj gizlendi",
+  "@textChatHidden": {
+    "description": "Text mode interface: textChatHidden"
+  },
+  "quickChatSuspect": "Şüpheli!",
+  "@quickChatSuspect": {
+    "description": "Text mode interface: quickChatSuspect"
+  },
+  "quickChatFit": "Uyuyor.",
+  "@quickChatFit": {
+    "description": "Text mode interface: quickChatFit"
+  },
+  "quickChatWeird": "Tuhaf.",
+  "@quickChatWeird": {
+    "description": "Text mode interface: quickChatWeird"
+  },
+  "quickChatTrust": "Sana güveniyorum.",
+  "@quickChatTrust": {
+    "description": "Text mode interface: quickChatTrust"
+  },
+  "quickChatNotMe": "Ben değilim!",
+  "@quickChatNotMe": {
+    "description": "Text mode interface: quickChatNotMe"
+  },
+  "quickChatLaugh": "Hahaha!",
+  "@quickChatLaugh": {
+    "description": "Text mode interface: quickChatLaugh"
+  },
+  "textPoked": "Sana dürtü gönderildi",
+  "@textPoked": {
+    "description": "Brief accessible feedback when a new live poke targets this player."
+  },
+  "safetyTitle": "Güvenlik ve gizlilik",
+  "@safetyTitle": {
+    "description": "Safety and account controls: safetyTitle"
+  },
+  "safetyIntro": "Kontrol sende, hesap senin. Bildirimler gizlidir; içerik koşullarını kabul etmeden de gönderebilirsin.",
+  "@safetyIntro": {
+    "description": "Safety and account controls: safetyIntro"
+  },
+  "safetyTerms": "Kullanıcı koşulları",
+  "@safetyTerms": {
+    "description": "Safety and account controls: safetyTerms"
+  },
+  "safetyTermsUnavailable": "Kullanıcı koşulları henüz yayımlanmadı. Yazılı sohbet ve katkılar kullanılamıyor.",
+  "@safetyTermsUnavailable": {
+    "description": "Safety and account controls: safetyTermsUnavailable"
+  },
+  "safetyAccept": "Bu koşulları kabul et",
+  "@safetyAccept": {
+    "description": "Safety and account controls: safetyAccept"
+  },
+  "safetyAccepted": "Güncel koşullar kabul edildi",
+  "@safetyAccepted": {
+    "description": "Safety and account controls: safetyAccepted"
+  },
+  "safetyTermsRequired": "Yazılı sohbet için güncel kullanıcı koşullarını inceleyip kabul et. Hazır Sohbet kullanılabilir.",
+  "@safetyTermsRequired": {
+    "description": "Safety and account controls: safetyTermsRequired"
+  },
+  "safetyBlocks": "Engellenen hesaplar",
+  "@safetyBlocks": {
+    "description": "Safety and account controls: safetyBlocks"
+  },
+  "safetyBlocksEmpty": "Bu sayfada engellenen hesap yok.",
+  "@safetyBlocksEmpty": {
+    "description": "Safety and account controls: safetyBlocksEmpty"
+  },
+  "safetyNext": "Sonraki sayfa",
+  "@safetyNext": {
+    "description": "Safety and account controls: safetyNext"
+  },
+  "safetyUnblock": "Engeli kaldır",
+  "@safetyUnblock": {
+    "description": "Safety and account controls: safetyUnblock"
+  },
+  "safetyBlock": "Bu oyuncuyu engelle",
+  "@safetyBlock": {
+    "description": "Safety and account controls: safetyBlock"
+  },
+  "safetyBlockHint": "Engelleme, oyuncunun yazdığı sohbeti senden gizler ve sonraki eşleşmeleri önler. Bu maç, oylar ve puanlar değişmez.",
+  "@safetyBlockHint": {
+    "description": "Safety and account controls: safetyBlockHint"
+  },
+  "safetyBlocked": "Oyuncu engellendi",
+  "@safetyBlocked": {
+    "description": "Safety and account controls: safetyBlocked"
+  },
+  "safetySupport": "Destek ile iletişim",
+  "@safetySupport": {
+    "description": "Safety and account controls: safetySupport"
+  },
+  "safetyPrivacy": "Gizlilik politikası",
+  "@safetyPrivacy": {
+    "description": "Safety and account controls: safetyPrivacy"
+  },
+  "safetyRestore": "Kayıtlı hesabın geri yüklenemedi. Bağlanınca yeniden dene veya aynı hesabı kurtarmak için destek ile iletişime geç.",
+  "@safetyRestore": {
+    "description": "Safety and account controls: safetyRestore"
+  },
+  "textReport": "Metni bildir",
+  "textReportConfirm": "Bu metin hakkında bildirim gönderilsin mi? Bir neden seç.",
+  "textReportInappropriate": "Uygunsuz içerik",
+  "textReportIncorrect": "Metin veya çeviri hatası",
+  "textReportOther": "Diğer içerik sorunu",
+  "textReportSend": "Bildirimi gönder",
+  "textReportSent": "Bildirim alındı.",
+  "textReportFailed": "Bildirim doğrulanamadı. Aynı bildirimi yeniden dene.",
+  "oauthTitle": "Hesabın",
+  "oauthIntro": "Bu cihazdaki ilerlemeni Google veya Facebook ile bağla ya da daha önce bağladığın ilerlemeyi geri yükle.",
+  "oauthLink": "Bu ilerlemeyi kaydet",
+  "oauthRestore": "Bağlı ilerlemeyi geri yükle",
+  "oauthGoogle": "Google ile devam et",
+  "oauthFacebook": "Facebook ile devam et",
+  "oauthPending": "Tarayıcıda giriş yapmayı tamamla, ardından buraya dön.",
+  "oauthCheck": "Girişi kontrol et",
+  "oauthCancel": "Girişi iptal et",
+  "oauthOpenBrowser": "Giriş sayfasını yeniden aç",
+  "oauthSwitchTitle": "Bağlı hesaba geçilsin mi?",
+  "oauthSwitchBody": "Bu cihaz başka bir hesap kullanıyor. İlerlemen, Noin ve satın almaların ayrı kalacak; birleştirilmeyecek.",
+  "oauthSwitch": "Hesabı değiştir",
+  "oauthKeepCurrent": "Mevcut hesabı koru",
+  "oauthSuccess": "Bağlı hesabın hazır.",
+  "oauthUnavailable": "Giriş şu anda kullanılamıyor. Daha sonra tekrar dene.",
+  "oauthUnlinked": "Bu girişe bağlı bir Knowoff hesabı yok. İlerlemenin bulunduğu cihaza dön ve önce orada hesabını bağla.",
+  "oauthConflict": "Bu giriş zaten başka bir hesaba bağlı. İlerlemesini kullanmak için geri yükle veya farklı bir giriş seç.",
+  "oauthExpired": "Bu girişin süresi doldu. Yeniden başla.",
+  "oauthInvalid": "Bu giriş doğrulanamadı. Yeniden başla.",
+  "oauthRateLimited": "Çok fazla giriş denemesi yapıldı. Daha sonra tekrar dene.",
+  "oauthMismatch": "Dönen hesap bu cihazla eşleşmiyor. Mevcut hesabın değişmedi.",
+  "oauthSessionRequired": "Hesabını bağlamak için mevcut oturumunu yenile veya daha önce bağladığın bir hesabı geri yükle.",
+  "oauthBrowserFailed": "Tarayıcı açılamadı. Giriş sayfasını açmayı tekrar dene.",
+  "@oauthTitle": {
+    "description": "Account linking and restoration: Title"
+  },
+  "@oauthIntro": {
+    "description": "Account linking and restoration: Intro"
+  },
+  "@oauthLink": {
+    "description": "Account linking and restoration: Link"
+  },
+  "@oauthRestore": {
+    "description": "Account linking and restoration: Restore"
+  },
+  "@oauthGoogle": {
+    "description": "Account linking and restoration: Google"
+  },
+  "@oauthFacebook": {
+    "description": "Account linking and restoration: Facebook"
+  },
+  "@oauthPending": {
+    "description": "Account linking and restoration: Pending"
+  },
+  "@oauthCheck": {
+    "description": "Account linking and restoration: Check"
+  },
+  "@oauthCancel": {
+    "description": "Account linking and restoration: Cancel"
+  },
+  "@oauthOpenBrowser": {
+    "description": "Account linking and restoration: OpenBrowser"
+  },
+  "@oauthSwitchTitle": {
+    "description": "Account linking and restoration: SwitchTitle"
+  },
+  "@oauthSwitchBody": {
+    "description": "Account linking and restoration: SwitchBody"
+  },
+  "@oauthSwitch": {
+    "description": "Account linking and restoration: Switch"
+  },
+  "@oauthKeepCurrent": {
+    "description": "Account linking and restoration: KeepCurrent"
+  },
+  "@oauthSuccess": {
+    "description": "Account linking and restoration: Success"
+  },
+  "@oauthUnavailable": {
+    "description": "Account linking and restoration: Unavailable"
+  },
+  "@oauthUnlinked": {
+    "description": "Account linking and restoration: Unlinked"
+  },
+  "@oauthConflict": {
+    "description": "Account linking and restoration: Conflict"
+  },
+  "@oauthExpired": {
+    "description": "Account linking and restoration: Expired"
+  },
+  "@oauthInvalid": {
+    "description": "Account linking and restoration: Invalid"
+  },
+  "@oauthRateLimited": {
+    "description": "Account linking and restoration: RateLimited"
+  },
+  "@oauthMismatch": {
+    "description": "Account linking and restoration: Mismatch"
+  },
+  "@oauthSessionRequired": {
+    "description": "Account linking and restoration: SessionRequired"
+  },
+  "@oauthBrowserFailed": {
+    "description": "Account linking and restoration: BrowserFailed"
+  },
+  "@textReport": {
+    "description": "Visible-text content report control."
+  },
+  "@textReportConfirm": {
+    "description": "Visible-text content report control."
+  },
+  "@textReportInappropriate": {
+    "description": "Visible-text content report control."
+  },
+  "@textReportIncorrect": {
+    "description": "Visible-text content report control."
+  },
+  "@textReportOther": {
+    "description": "Visible-text content report control."
+  },
+  "@textReportSend": {
+    "description": "Visible-text content report control."
+  },
+  "@textReportSent": {
+    "description": "Visible-text content report control."
+  },
+  "@textReportFailed": {
+    "description": "Visible-text content report control."
+  },
+  "serviceAvatarCost": "Kalıcı Özel Avatar kilidini bir kez açın. Sonraki yüklemeler ek Noin gerektirmez.",
+  "@serviceAvatarCost": {
+    "description": "Custom avatar ownership, screening or activation status."
+  },
+  "serviceAvatarCostPrice": "Kalıcı Özel Avatar kilidi: {price} Noin.",
+  "@serviceAvatarCostPrice": {
+    "description": "Custom avatar ownership, screening or activation status.",
+    "placeholders": {
+      "price": {
+        "type": "int"
+      }
+    }
+  },
+  "serviceAvatarReview": "Görseliniz etkinleşmeden önce denetlenir. Yükleme başarısız olursa mevcut avatarınız korunur.",
+  "@serviceAvatarReview": {
+    "description": "Custom avatar ownership, screening or activation status."
+  },
+  "serviceAvatarSubmitted": "Avatar onaylandı ve güncellendi.",
+  "@serviceAvatarSubmitted": {
+    "description": "Custom avatar ownership, screening or activation status."
+  },
+  "serviceAvatarOwned": "Özel Avatar zaten açık. Yükleme için ek Noin alınmaz.",
+  "@serviceAvatarOwned": {
+    "description": "Custom avatar ownership, screening or activation status."
+  },
+  "serviceAvatarUnavailable": "Avatar denetimi kullanılamıyor. Görseliniz ve kilit açma hakkınız değişmedi.",
+  "@serviceAvatarUnavailable": {
+    "description": "Custom avatar ownership, screening or activation status."
+  },
+  "serviceAvatarRejected": "Bu görsel onaylanmadı. Başka bir görsel seçin; kilit açma hakkınız korunur.",
+  "@serviceAvatarRejected": {
+    "description": "Custom avatar ownership, screening or activation status."
+  },
+  "serviceAvatarChanged": "Hesabınız veya avatarınız değişti. Devam etmeden önce görseli yeniden seçin.",
+  "@serviceAvatarChanged": {
+    "description": "Custom avatar ownership, screening or activation status."
+  },
+  "serviceAvatarUnlock": "Özel Avatar kilidini aç",
+  "@serviceAvatarUnlock": {
+    "description": "Custom avatar ownership, screening or activation status."
+  },
+  "serviceAvatarUnlockConfirm": "Kalıcı kilit açma hakkını satın al",
+  "@serviceAvatarUnlockConfirm": {
+    "description": "Custom avatar ownership, screening or activation status."
+  },
+  "purchaseTitle": "Uygulama içi satın almalar",
+  "purchaseOpening": "Mağaza açılıyor…",
+  "purchasePending": "Mağazanın ödemeyi tamamlaması bekleniyor.",
+  "purchaseVerifying": "Knowoff ile doğrulanıyor…",
+  "purchaseVerified": "Satın alma doğrulandı. Hesabın güncellendi.",
+  "purchaseCanceled": "Satın alma iptal edildi.",
+  "purchaseFailed": "Satın alma tamamlanamadı.",
+  "purchaseRetryMessage": "Doğrulama tamamlanmadı. Yeniden satın almadan tekrar dene.",
+  "purchaseAccountRequired": "Bu satın almanın ait olduğu Knowoff hesabını geri yükle.",
+  "purchaseOwned": "Bu hesapta Premium zaten etkin.",
+  "purchaseRestore": "Satın almaları geri yükle",
+  "purchaseRetry": "Doğrulamayı tekrar dene",
+  "purchaseRestoreHint": "Aboneliklerini aynı mağaza ve Knowoff hesaplarıyla geri yükle. Kullanılan Noin paketleri Knowoff hesabında kalır.",
+  "purchaseMonthlyTerms": "Mağazadan iptal edilene kadar gösterilen mağaza fiyatıyla her ay yenilenir.",
+  "purchaseYearlyTerms": "Mağazadan iptal edilene kadar gösterilen mağaza fiyatıyla her yıl yenilenir.",
+  "purchaseManageApple": "Apple aboneliklerini yönet",
+  "purchaseManageGoogle": "Google Play aboneliklerini yönet",
+  "purchaseBuyPrice": "Satın al · {price}",
+  "serviceBillingUnavailable": "Bu cihazda veya bu mağaza yapılandırmasında satın alma kullanılamıyor.",
+  "@purchaseTitle": {
+    "description": "Native store purchase and restore flow."
+  },
+  "@purchaseOpening": {
+    "description": "Native store purchase and restore flow."
+  },
+  "@purchasePending": {
+    "description": "Native store purchase and restore flow."
+  },
+  "@purchaseVerifying": {
+    "description": "Native store purchase and restore flow."
+  },
+  "@purchaseVerified": {
+    "description": "Native store purchase and restore flow."
+  },
+  "@purchaseCanceled": {
+    "description": "Native store purchase and restore flow."
+  },
+  "@purchaseFailed": {
+    "description": "Native store purchase and restore flow."
+  },
+  "@purchaseRetryMessage": {
+    "description": "Native store purchase and restore flow."
+  },
+  "@purchaseAccountRequired": {
+    "description": "Native store purchase and restore flow."
+  },
+  "@purchaseOwned": {
+    "description": "Native store purchase and restore flow."
+  },
+  "@purchaseRestore": {
+    "description": "Native store purchase and restore flow."
+  },
+  "@purchaseRetry": {
+    "description": "Native store purchase and restore flow."
+  },
+  "@purchaseRestoreHint": {
+    "description": "Native store purchase and restore flow."
+  },
+  "@purchaseMonthlyTerms": {
+    "description": "Native store purchase and restore flow."
+  },
+  "@purchaseYearlyTerms": {
+    "description": "Native store purchase and restore flow."
+  },
+  "@purchaseManageApple": {
+    "description": "Native store purchase and restore flow."
+  },
+  "@purchaseManageGoogle": {
+    "description": "Native store purchase and restore flow."
+  },
+  "@purchaseBuyPrice": {
+    "description": "Native store purchase and restore flow.",
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "@serviceBillingUnavailable": {
+    "description": "Explains which purchases require unavailable platform billing and which Noin purchases still work."
+  },
+  "bonusPremium": "Premium bonusu",
+  "@bonusPremium": {
+    "description": "Title for a confirmed Premium match bonus."
+  },
+  "bonusRewardedAd": "Reklam ödülü",
+  "@bonusRewardedAd": {
+    "description": "Title for a server-verified rewarded-ad bonus."
+  },
+  "bonusCredited": "{amount} Noin eklendi",
+  "@bonusCredited": {
+    "description": "Actual server-confirmed Noin credited, including zero.",
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "bonusCapped": "Günlük kazanma sınırı bu bonusu azalttı.",
+  "@bonusCapped": {
+    "description": "Explains a bonus limited by original-day earning caps."
+  },
+  "bonusSyncRetry": "Bonus makbuzların eşitlenemedi. Durumlarını kontrol etmek için yeniden dene.",
+  "@bonusSyncRetry": {
+    "description": "Receipt read or dismissal synchronization failed; retry does not grant currency."
+  },
+  "bonusRequested": "Günlük sınırdan önceki bonus: {amount} Noin",
+  "@bonusRequested": {
+    "description": "Requested bonus before applying original-day caps, not an extra credit.",
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "rewardWatchAd": "Maç bonusu için reklam izle",
+  "@rewardWatchAd": {
+    "description": "Explicit action for a server-authorized rewarded ad."
+  },
+  "rewardAdDetails": "Bonusun sunucu tarafından onaylanır. Günlük sınırlar geçerlidir.",
+  "@rewardAdDetails": {
+    "description": "Server confirmation and daily-cap explanation for rewarded ads."
+  },
+  "rewardPrivacyChoices": "Reklam gizlilik tercihleri",
+  "@rewardPrivacyChoices": {
+    "description": "Entry to the native required ad privacy choices form."
+  }
+}

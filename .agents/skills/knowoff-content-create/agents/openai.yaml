@@ -1,0 +1,4 @@
+interface:
+  display_name: "Create Knowoff content"
+  short_description: "Draft lo-fi image/text Nowns and cards"
+  default_prompt: "Use $knowoff-content-create to draft lo-fi static image and text content. Automatically read the High/Distant/Chaos source map, current tuning, and server/client dealing and display logic before proposing relationships."

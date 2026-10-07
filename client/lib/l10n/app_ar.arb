@@ -1,0 +1,791 @@
+{
+  "@@locale": "ar",
+  "textModeBriefing": "فاتني الاجتماع",
+  "textModeScale": "المقياس السري",
+  "textModeRoom": "أفسح المجال",
+  "textModeBargains": "صفقات سيئة",
+  "textModeTop": "تجاوز هذا",
+  "textChooseMode": "اختر نمطًا",
+  "textContentLanguage": "لغة المحتوى",
+  "textPack": "الحزمة",
+  "textUnavailable": "هذا النمط غير متاح بعد.",
+  "textWithdrawn": "النمط السابق غير متاح. اختر نمطًا متاحًا للمتابعة.",
+  "textConnect": "تحقق من الأنماط المتاحة",
+  "textCreate": "أنشئ غرفة",
+  "textJoin": "انضم إلى غرفة",
+  "textConfirm": "أكد الحركة",
+  "textPreview": "راجع حركتك",
+  "textCancel": "إلغاء",
+  "textRespond": "أجب",
+  "textPlace": "ضع",
+  "textReplace": "استبدل",
+  "textOffer": "اعرض تبادلًا",
+  "textTop": "تجاوز هذا",
+  "textAccept": "اقبل التبادل",
+  "textRefuse": "ارفض التبادل",
+  "textReady": "جاهز",
+  "textStart": "ابدأ المباراة",
+  "textLeave": "غادر",
+  "textKeepWaiting": "استمر في الانتظار",
+  "textChangeMode": "غيّر النمط",
+  "textWaiting": "بانتظار طاولة مكتملة من اللاعبين",
+  "textSync": "تجري مزامنة سجل المباراة كاملًا…",
+  "textUpgrade": "حدّث التطبيق للمتابعة. يستخدم الخادم إصدارًا مختلفًا من اللعبة.",
+  "textStale": "تغيرت الطاولة. أُلغيت حركتك أثناء تحميل الحالة الجديدة.",
+  "textError": "تعذر إكمال الطلب. حاول مجددًا.",
+  "textUnknownPrompt": "يبقى التلميح المشترك مخفيًا عن دورك.",
+  "textBoard": "الطاولة العامة",
+  "textHistory": "السجل العام",
+  "textHand": "بطاقاتك",
+  "textDraw": "اسحب بطاقة واحدة",
+  "textRating": "التقييم",
+  "textSlot": "المكان",
+  "textTarget": "اختر البطاقة المعروضة التي تريدها",
+  "textSystem": "النظام",
+  "textSpectating": "أنت تشاهد الآن. مُسحت البطاقات والتلميحات الخاصة.",
+  "textRetry": "أعد إرسال الطلب نفسه",
+  "textRematch": "عد إلى الإعدادات لمباراة أخرى",
+  "textChat": "رسالة",
+  "textSend": "أرسل",
+  "textPoke": "نبّه",
+  "textVote": "صوّت",
+  "textAbstain": "لم تُحدد بطاقة تصويت",
+  "textReadyHint": "الجاهزية تؤكد هذه الإعدادات والأعضاء الحاليين. أي تغيير يمسح جاهزية الجميع.",
+  "textPrivate": "تلميح خاص",
+  "textResults": "النتائج",
+  "textOfferPending": "ينتظر التبادل رد الطرف الآخر.",
+  "textDeadline": "الموعد النهائي للخادم",
+  "textRoomCode": "رمز الغرفة",
+  "textQuickPlay": "لعب سريع",
+  "textLocalRoom": "غرفة محلية",
+  "textReturnMenu": "عد إلى القائمة",
+  "textPreviousPage": "الصفحة السابقة",
+  "textNextPage": "الصفحة التالية",
+  "textRules": "القواعد",
+  "textPlayers": "اللاعبون",
+  "textRewardsOn": "مؤهل للمكافآت",
+  "textRewardsOff": "لا مكافآت لهذه المباراة",
+  "textBriefingInstruction": "العب بطاقة واحدة لتكون إجابتك.",
+  "textScaleInstruction": "ضع بطاقة على درجة من 1 إلى 5.",
+  "textRoomInstruction": "استبدل بطاقة في الحقيبة. تبقى البطاقة المستبدلة في السجل العام.",
+  "textBargainsInstruction": "اعرض بطاقة مقابل بطاقة لاعب آخر. يمكنه القبول أو الرفض.",
+  "textTopInstruction": "أضف بطاقة فوق البطاقة العليا الحالية.",
+  "textRunoff": "جولة إعادة",
+  "textAutomatic": "تلقائي",
+  "textSeed": "بطاقات البداية",
+  "textDisconnected": "غير متصل",
+  "textCount": "العدد",
+  "textRound": "الجولة",
+  "textTurn": "الدور",
+  "textSettlement": "نتيجتك المسجلة",
+  "textPoints": "النقاط",
+  "textLeaderboardCounted": "احتسبت في لوحة الصدارة",
+  "textLeaderboardUncounted": "لم تحتسب في لوحة الصدارة",
+  "textAcknowledge": "تم",
+  "textAwardVote": "تصويت صحيح",
+  "textAwardSurvival": "النجاة من التصويت",
+  "textAwardCompleted": "إكمال المباراة",
+  "textAwardWin": "فوز الفريق",
+  "textAwardFirstWin": "أول فوز اليوم",
+  "@textModeBriefing": {
+    "description": "Text mode interface: textModeBriefing"
+  },
+  "@textModeScale": {
+    "description": "Text mode interface: textModeScale"
+  },
+  "@textModeRoom": {
+    "description": "Text mode interface: textModeRoom"
+  },
+  "@textModeBargains": {
+    "description": "Text mode interface: textModeBargains"
+  },
+  "@textModeTop": {
+    "description": "Text mode interface: textModeTop"
+  },
+  "@textChooseMode": {
+    "description": "Text mode interface: textChooseMode"
+  },
+  "@textContentLanguage": {
+    "description": "Text mode interface: textContentLanguage"
+  },
+  "@textPack": {
+    "description": "Text mode interface: textPack"
+  },
+  "@textUnavailable": {
+    "description": "Text mode interface: textUnavailable"
+  },
+  "@textWithdrawn": {
+    "description": "Text mode interface: textWithdrawn"
+  },
+  "@textConnect": {
+    "description": "Text mode interface: textConnect"
+  },
+  "@textCreate": {
+    "description": "Text mode interface: textCreate"
+  },
+  "@textJoin": {
+    "description": "Text mode interface: textJoin"
+  },
+  "@textConfirm": {
+    "description": "Text mode interface: textConfirm"
+  },
+  "@textPreview": {
+    "description": "Text mode interface: textPreview"
+  },
+  "@textCancel": {
+    "description": "Text mode interface: textCancel"
+  },
+  "@textRespond": {
+    "description": "Text mode interface: textRespond"
+  },
+  "@textPlace": {
+    "description": "Text mode interface: textPlace"
+  },
+  "@textReplace": {
+    "description": "Text mode interface: textReplace"
+  },
+  "@textOffer": {
+    "description": "Text mode interface: textOffer"
+  },
+  "@textTop": {
+    "description": "Text mode interface: textTop"
+  },
+  "@textAccept": {
+    "description": "Text mode interface: textAccept"
+  },
+  "@textRefuse": {
+    "description": "Text mode interface: textRefuse"
+  },
+  "@textReady": {
+    "description": "Text mode interface: textReady"
+  },
+  "@textStart": {
+    "description": "Text mode interface: textStart"
+  },
+  "@textLeave": {
+    "description": "Text mode interface: textLeave"
+  },
+  "@textKeepWaiting": {
+    "description": "Text mode interface: textKeepWaiting"
+  },
+  "@textChangeMode": {
+    "description": "Text mode interface: textChangeMode"
+  },
+  "@textWaiting": {
+    "description": "Text mode interface: textWaiting"
+  },
+  "@textSync": {
+    "description": "Text mode interface: textSync"
+  },
+  "@textUpgrade": {
+    "description": "Text mode interface: textUpgrade"
+  },
+  "@textStale": {
+    "description": "Text mode interface: textStale"
+  },
+  "@textError": {
+    "description": "Text mode interface: textError"
+  },
+  "@textUnknownPrompt": {
+    "description": "Text mode interface: textUnknownPrompt"
+  },
+  "@textBoard": {
+    "description": "Text mode interface: textBoard"
+  },
+  "@textHistory": {
+    "description": "Text mode interface: textHistory"
+  },
+  "@textHand": {
+    "description": "Text mode interface: textHand"
+  },
+  "@textDraw": {
+    "description": "Text mode interface: textDraw"
+  },
+  "@textRating": {
+    "description": "Text mode interface: textRating"
+  },
+  "@textSlot": {
+    "description": "Text mode interface: textSlot"
+  },
+  "@textTarget": {
+    "description": "Text mode interface: textTarget"
+  },
+  "@textSystem": {
+    "description": "Text mode interface: textSystem"
+  },
+  "@textSpectating": {
+    "description": "Text mode interface: textSpectating"
+  },
+  "@textRetry": {
+    "description": "Text mode interface: textRetry"
+  },
+  "@textRematch": {
+    "description": "Text mode interface: textRematch"
+  },
+  "@textChat": {
+    "description": "Text mode interface: textChat"
+  },
+  "@textSend": {
+    "description": "Text mode interface: textSend"
+  },
+  "@textPoke": {
+    "description": "Text mode interface: textPoke"
+  },
+  "@textVote": {
+    "description": "Text mode interface: textVote"
+  },
+  "@textAbstain": {
+    "description": "Text mode interface: textAbstain"
+  },
+  "@textReadyHint": {
+    "description": "Text mode interface: textReadyHint"
+  },
+  "@textPrivate": {
+    "description": "Text mode interface: textPrivate"
+  },
+  "@textResults": {
+    "description": "Text mode interface: textResults"
+  },
+  "@textOfferPending": {
+    "description": "Text mode interface: textOfferPending"
+  },
+  "@textDeadline": {
+    "description": "Text mode interface: textDeadline"
+  },
+  "@textRoomCode": {
+    "description": "Text mode interface: textRoomCode"
+  },
+  "@textQuickPlay": {
+    "description": "Text mode interface: textQuickPlay"
+  },
+  "@textLocalRoom": {
+    "description": "Text mode interface: textLocalRoom"
+  },
+  "@textReturnMenu": {
+    "description": "Text mode interface: textReturnMenu"
+  },
+  "@textPreviousPage": {
+    "description": "Public evidence paging control."
+  },
+  "@textNextPage": {
+    "description": "Public evidence paging control."
+  },
+  "@textRules": {
+    "description": "Text match interface: textRules."
+  },
+  "@textPlayers": {
+    "description": "Text match interface: textPlayers."
+  },
+  "@textRewardsOn": {
+    "description": "Text match interface: textRewardsOn."
+  },
+  "@textRewardsOff": {
+    "description": "Text match interface: textRewardsOff."
+  },
+  "@textBriefingInstruction": {
+    "description": "Text match interface: textBriefingInstruction."
+  },
+  "@textScaleInstruction": {
+    "description": "Text match interface: textScaleInstruction."
+  },
+  "@textRoomInstruction": {
+    "description": "Text match interface: textRoomInstruction."
+  },
+  "@textBargainsInstruction": {
+    "description": "Text match interface: textBargainsInstruction."
+  },
+  "@textTopInstruction": {
+    "description": "Text match interface: textTopInstruction."
+  },
+  "@textRunoff": {
+    "description": "Text match interface: textRunoff."
+  },
+  "@textAutomatic": {
+    "description": "Text match interface: textAutomatic."
+  },
+  "@textSeed": {
+    "description": "Text match interface: textSeed."
+  },
+  "@textDisconnected": {
+    "description": "Text match interface: textDisconnected."
+  },
+  "@textCount": {
+    "description": "Text match interface: textCount."
+  },
+  "@textRound": {
+    "description": "Text match interface: textRound."
+  },
+  "@textTurn": {
+    "description": "Text match interface: textTurn."
+  },
+  "@textSettlement": {
+    "description": "Private text match receipt: textSettlement."
+  },
+  "@textPoints": {
+    "description": "Private text match receipt: textPoints."
+  },
+  "@textLeaderboardCounted": {
+    "description": "Private text match receipt: textLeaderboardCounted."
+  },
+  "@textLeaderboardUncounted": {
+    "description": "Private text match receipt: textLeaderboardUncounted."
+  },
+  "@textAcknowledge": {
+    "description": "Private text match receipt: textAcknowledge."
+  },
+  "@textAwardVote": {
+    "description": "Private text match receipt: textAwardVote."
+  },
+  "@textAwardSurvival": {
+    "description": "Private text match receipt: textAwardSurvival."
+  },
+  "@textAwardCompleted": {
+    "description": "Private text match receipt: textAwardCompleted."
+  },
+  "@textAwardWin": {
+    "description": "Private text match receipt: textAwardWin."
+  },
+  "@textAwardFirstWin": {
+    "description": "Private text match receipt: textAwardFirstWin."
+  },
+  "textAutoPass": "تمرير تلقائي",
+  "@textAutoPass": {
+    "description": "Public text action evidence: textAutoPass."
+  },
+  "textReasonTimeout": "انتهى الوقت",
+  "@textReasonTimeout": {
+    "description": "Public text action evidence: textReasonTimeout."
+  },
+  "textReasonDisconnect": "لاعب غير متصل",
+  "@textReasonDisconnect": {
+    "description": "Public text action evidence: textReasonDisconnect."
+  },
+  "textReasonNoRecipient": "لا يوجد مستلم مؤهل",
+  "@textReasonNoRecipient": {
+    "description": "Public text action evidence: textReasonNoRecipient."
+  },
+  "textReasonTransition": "انتهت المرحلة",
+  "@textReasonTransition": {
+    "description": "Public text action evidence: textReasonTransition."
+  },
+  "textInterrupted": "انقطعت المباراة",
+  "@textInterrupted": {
+    "description": "Authoritative match verdict: textInterrupted."
+  },
+  "textLowPopulation": "انتهت المباراة بعدد غير كافٍ من اللاعبين",
+  "@textLowPopulation": {
+    "description": "Authoritative match verdict: textLowPopulation."
+  },
+  "textPrototype": "جلسة تجريبية · بلا مكافآت أو رصيد في لوحة الصدارة",
+  "@textPrototype": {
+    "description": "Text mode interface: textPrototype"
+  },
+  "textPersistencePending": "خطوتك بانتظار الحفظ. أعد محاولة الطلب نفسه.",
+  "@textPersistencePending": {
+    "description": "Text mode interface: textPersistencePending"
+  },
+  "textRateLimited": "طلبات كثيرة. انتظر ثم أعد محاولة الطلب نفسه.",
+  "@textRateLimited": {
+    "description": "Text mode interface: textRateLimited"
+  },
+  "textChatHidden": "تم إخفاء الرسالة",
+  "@textChatHidden": {
+    "description": "Text mode interface: textChatHidden"
+  },
+  "quickChatSuspect": "مريب!",
+  "@quickChatSuspect": {
+    "description": "Text mode interface: quickChatSuspect"
+  },
+  "quickChatFit": "مناسب.",
+  "@quickChatFit": {
+    "description": "Text mode interface: quickChatFit"
+  },
+  "quickChatWeird": "غريب.",
+  "@quickChatWeird": {
+    "description": "Text mode interface: quickChatWeird"
+  },
+  "quickChatTrust": "أثق بك.",
+  "@quickChatTrust": {
+    "description": "Text mode interface: quickChatTrust"
+  },
+  "quickChatNotMe": "لست أنا!",
+  "@quickChatNotMe": {
+    "description": "Text mode interface: quickChatNotMe"
+  },
+  "quickChatLaugh": "هاهاها!",
+  "@quickChatLaugh": {
+    "description": "Text mode interface: quickChatLaugh"
+  },
+  "textPoked": "لقد تلقيت نغزة",
+  "@textPoked": {
+    "description": "Brief accessible feedback when a new live poke targets this player."
+  },
+  "safetyTitle": "السلامة والخصوصية",
+  "@safetyTitle": {
+    "description": "Safety and account controls: safetyTitle"
+  },
+  "safetyIntro": "تحكّم بحسابك. البلاغات خاصة ومتاحة دون قبول شروط المحتوى.",
+  "@safetyIntro": {
+    "description": "Safety and account controls: safetyIntro"
+  },
+  "safetyTerms": "شروط الاستخدام",
+  "@safetyTerms": {
+    "description": "Safety and account controls: safetyTerms"
+  },
+  "safetyTermsUnavailable": "لم تُنشر شروط الاستخدام بعد. الدردشة المكتوبة والمساهمات غير متاحة.",
+  "@safetyTermsUnavailable": {
+    "description": "Safety and account controls: safetyTermsUnavailable"
+  },
+  "safetyAccept": "قبول هذه الشروط",
+  "@safetyAccept": {
+    "description": "Safety and account controls: safetyAccept"
+  },
+  "safetyAccepted": "تم قبول الشروط الحالية",
+  "@safetyAccepted": {
+    "description": "Safety and account controls: safetyAccepted"
+  },
+  "safetyTermsRequired": "راجع شروط الاستخدام الحالية واقبلها لإرسال دردشة مكتوبة. الدردشة السريعة متاحة.",
+  "@safetyTermsRequired": {
+    "description": "Safety and account controls: safetyTermsRequired"
+  },
+  "safetyBlocks": "الحسابات المحظورة",
+  "@safetyBlocks": {
+    "description": "Safety and account controls: safetyBlocks"
+  },
+  "safetyBlocksEmpty": "لا توجد حسابات محظورة في هذه الصفحة.",
+  "@safetyBlocksEmpty": {
+    "description": "Safety and account controls: safetyBlocksEmpty"
+  },
+  "safetyNext": "الصفحة التالية",
+  "@safetyNext": {
+    "description": "Safety and account controls: safetyNext"
+  },
+  "safetyUnblock": "إلغاء الحظر",
+  "@safetyUnblock": {
+    "description": "Safety and account controls: safetyUnblock"
+  },
+  "safetyBlock": "حظر هذا اللاعب",
+  "@safetyBlock": {
+    "description": "Safety and account controls: safetyBlock"
+  },
+  "safetyBlockHint": "يخفي الحظر رسائل اللاعب المكتوبة عنك ويمنع مواجهته لاحقًا. تبقى هذه المباراة وأصواتها ونقاطها كما هي.",
+  "@safetyBlockHint": {
+    "description": "Safety and account controls: safetyBlockHint"
+  },
+  "safetyBlocked": "تم حظر اللاعب",
+  "@safetyBlocked": {
+    "description": "Safety and account controls: safetyBlocked"
+  },
+  "safetySupport": "التواصل مع الدعم",
+  "@safetySupport": {
+    "description": "Safety and account controls: safetySupport"
+  },
+  "safetyPrivacy": "سياسة الخصوصية",
+  "@safetyPrivacy": {
+    "description": "Safety and account controls: safetyPrivacy"
+  },
+  "safetyRestore": "تعذّرت استعادة حسابك المحفوظ. أعد المحاولة عند الاتصال أو تواصل مع الدعم لاستعادة الحساب نفسه.",
+  "@safetyRestore": {
+    "description": "Safety and account controls: safetyRestore"
+  },
+  "textReport": "الإبلاغ عن النص",
+  "textReportConfirm": "هل تريد الإبلاغ عن هذا النص؟ اختر السبب.",
+  "textReportInappropriate": "محتوى غير لائق",
+  "textReportIncorrect": "خطأ في النص أو الترجمة",
+  "textReportOther": "مشكلة أخرى في المحتوى",
+  "textReportSend": "إرسال البلاغ",
+  "textReportSent": "تم استلام البلاغ.",
+  "textReportFailed": "تعذر تأكيد البلاغ. أعد محاولة إرسال البلاغ نفسه.",
+  "oauthTitle": "حسابك",
+  "oauthIntro": "اربط تقدمك على هذا الجهاز بحساب Google أو Facebook، أو استعد تقدمًا سبق أن ربطته.",
+  "oauthLink": "حفظ هذا التقدم",
+  "oauthRestore": "استعادة التقدم المرتبط",
+  "oauthGoogle": "المتابعة باستخدام Google",
+  "oauthFacebook": "المتابعة باستخدام Facebook",
+  "oauthPending": "أكمل تسجيل الدخول في المتصفح، ثم عُد إلى هنا.",
+  "oauthCheck": "التحقق من تسجيل الدخول",
+  "oauthCancel": "إلغاء تسجيل الدخول",
+  "oauthOpenBrowser": "فتح تسجيل الدخول مجددًا",
+  "oauthSwitchTitle": "التبديل إلى الحساب المرتبط؟",
+  "oauthSwitchBody": "يستخدم هذا الجهاز حسابًا آخر. سيبقى تقدمك وNoin ومشترياتك منفصلة؛ ولن يتم دمجها.",
+  "oauthSwitch": "تبديل الحساب",
+  "oauthKeepCurrent": "الاحتفاظ بالحساب الحالي",
+  "oauthSuccess": "حسابك المرتبط جاهز.",
+  "oauthUnavailable": "تسجيل الدخول غير متاح. حاول مرة أخرى لاحقًا.",
+  "oauthUnlinked": "لا يوجد حساب Knowoff مرتبط بهذا الدخول. عُد إلى الجهاز الذي يحتوي على تقدمك واربطه هناك أولًا.",
+  "oauthConflict": "هذا الدخول مرتبط بالفعل بحساب آخر. استعده لاستخدام تقدمه، أو اختر حساب دخول مختلفًا.",
+  "oauthExpired": "انتهت صلاحية هذا الدخول. ابدأ من جديد.",
+  "oauthInvalid": "تعذر التحقق من هذا الدخول. ابدأ من جديد.",
+  "oauthRateLimited": "محاولات تسجيل الدخول كثيرة جدًا. حاول لاحقًا.",
+  "oauthMismatch": "الحساب المستعاد لا يطابق هذا الجهاز. لم يتغير حسابك الحالي.",
+  "oauthSessionRequired": "حدّث جلستك الحالية لربطها، أو استعد حسابًا سبق أن ربطته.",
+  "oauthBrowserFailed": "تعذر فتح المتصفح. حاول فتح تسجيل الدخول مجددًا.",
+  "@oauthTitle": {
+    "description": "Account linking and restoration: Title"
+  },
+  "@oauthIntro": {
+    "description": "Account linking and restoration: Intro"
+  },
+  "@oauthLink": {
+    "description": "Account linking and restoration: Link"
+  },
+  "@oauthRestore": {
+    "description": "Account linking and restoration: Restore"
+  },
+  "@oauthGoogle": {
+    "description": "Account linking and restoration: Google"
+  },
+  "@oauthFacebook": {
+    "description": "Account linking and restoration: Facebook"
+  },
+  "@oauthPending": {
+    "description": "Account linking and restoration: Pending"
+  },
+  "@oauthCheck": {
+    "description": "Account linking and restoration: Check"
+  },
+  "@oauthCancel": {
+    "description": "Account linking and restoration: Cancel"
+  },
+  "@oauthOpenBrowser": {
+    "description": "Account linking and restoration: OpenBrowser"
+  },
+  "@oauthSwitchTitle": {
+    "description": "Account linking and restoration: SwitchTitle"
+  },
+  "@oauthSwitchBody": {
+    "description": "Account linking and restoration: SwitchBody"
+  },
+  "@oauthSwitch": {
+    "description": "Account linking and restoration: Switch"
+  },
+  "@oauthKeepCurrent": {
+    "description": "Account linking and restoration: KeepCurrent"
+  },
+  "@oauthSuccess": {
+    "description": "Account linking and restoration: Success"
+  },
+  "@oauthUnavailable": {
+    "description": "Account linking and restoration: Unavailable"
+  },
+  "@oauthUnlinked": {
+    "description": "Account linking and restoration: Unlinked"
+  },
+  "@oauthConflict": {
+    "description": "Account linking and restoration: Conflict"
+  },
+  "@oauthExpired": {
+    "description": "Account linking and restoration: Expired"
+  },
+  "@oauthInvalid": {
+    "description": "Account linking and restoration: Invalid"
+  },
+  "@oauthRateLimited": {
+    "description": "Account linking and restoration: RateLimited"
+  },
+  "@oauthMismatch": {
+    "description": "Account linking and restoration: Mismatch"
+  },
+  "@oauthSessionRequired": {
+    "description": "Account linking and restoration: SessionRequired"
+  },
+  "@oauthBrowserFailed": {
+    "description": "Account linking and restoration: BrowserFailed"
+  },
+  "@textReport": {
+    "description": "Visible-text content report control."
+  },
+  "@textReportConfirm": {
+    "description": "Visible-text content report control."
+  },
+  "@textReportInappropriate": {
+    "description": "Visible-text content report control."
+  },
+  "@textReportIncorrect": {
+    "description": "Visible-text content report control."
+  },
+  "@textReportOther": {
+    "description": "Visible-text content report control."
+  },
+  "@textReportSend": {
+    "description": "Visible-text content report control."
+  },
+  "@textReportSent": {
+    "description": "Visible-text content report control."
+  },
+  "@textReportFailed": {
+    "description": "Visible-text content report control."
+  },
+  "serviceAvatarCost": "اشترِ فتح الصورة الرمزية المخصصة الدائم مرة واحدة. لا تكلف عمليات الرفع اللاحقة أي Noin إضافي.",
+  "@serviceAvatarCost": {
+    "description": "Custom avatar ownership, screening or activation status."
+  },
+  "serviceAvatarCostPrice": "فتح الصورة الرمزية المخصصة الدائم: {price} Noin.",
+  "@serviceAvatarCostPrice": {
+    "description": "Custom avatar ownership, screening or activation status.",
+    "placeholders": {
+      "price": {
+        "type": "int"
+      }
+    }
+  },
+  "serviceAvatarReview": "تُفحص الصورة قبل تفعيلها. إذا فشل الرفع تبقى صورتك الحالية.",
+  "@serviceAvatarReview": {
+    "description": "Custom avatar ownership, screening or activation status."
+  },
+  "serviceAvatarSubmitted": "تمت الموافقة على الصورة الرمزية وتحديثها.",
+  "@serviceAvatarSubmitted": {
+    "description": "Custom avatar ownership, screening or activation status."
+  },
+  "serviceAvatarOwned": "الصورة الرمزية المخصصة مفتوحة بالفعل. لا يكلف الرفع أي Noin إضافي.",
+  "@serviceAvatarOwned": {
+    "description": "Custom avatar ownership, screening or activation status."
+  },
+  "serviceAvatarUnavailable": "فحص الصور غير متاح. لم تتغير صورتك أو ملكيتك لفتح الميزة.",
+  "@serviceAvatarUnavailable": {
+    "description": "Custom avatar ownership, screening or activation status."
+  },
+  "serviceAvatarRejected": "لم تُعتمد هذه الصورة. اختر صورة أخرى؛ يبقى حق فتح الميزة ملكك.",
+  "@serviceAvatarRejected": {
+    "description": "Custom avatar ownership, screening or activation status."
+  },
+  "serviceAvatarChanged": "تغيّر حسابك أو صورتك الرمزية. أعد اختيار الصورة قبل المتابعة.",
+  "@serviceAvatarChanged": {
+    "description": "Custom avatar ownership, screening or activation status."
+  },
+  "serviceAvatarUnlock": "فتح الصورة الرمزية المخصصة",
+  "@serviceAvatarUnlock": {
+    "description": "Custom avatar ownership, screening or activation status."
+  },
+  "serviceAvatarUnlockConfirm": "شراء الفتح الدائم",
+  "@serviceAvatarUnlockConfirm": {
+    "description": "Custom avatar ownership, screening or activation status."
+  },
+  "purchaseTitle": "عمليات الشراء داخل التطبيق",
+  "purchaseOpening": "جارٍ فتح المتجر…",
+  "purchasePending": "بانتظار إتمام الدفع في المتجر.",
+  "purchaseVerifying": "جارٍ التحقق لدى Knowoff…",
+  "purchaseVerified": "تم التحقق من الشراء وتحديث حسابك.",
+  "purchaseCanceled": "أُلغيت عملية الشراء.",
+  "purchaseFailed": "تعذّر إتمام عملية الشراء.",
+  "purchaseRetryMessage": "لم يكتمل التحقق. أعد المحاولة دون الشراء مجددًا.",
+  "purchaseAccountRequired": "استعد حساب Knowoff الذي يملك هذا الشراء.",
+  "purchaseOwned": "Premium مفعّل بالفعل على هذا الحساب.",
+  "purchaseRestore": "استعادة المشتريات",
+  "purchaseRetry": "إعادة محاولة التحقق",
+  "purchaseRestoreHint": "استعد الاشتراكات باستخدام حسابَي المتجر وKnowoff نفسيهما. تبقى حزم Noin المستهلكة في حساب Knowoff.",
+  "purchaseMonthlyTerms": "يتجدد شهريًا بسعر المتجر المعروض حتى إلغائه في المتجر.",
+  "purchaseYearlyTerms": "يتجدد سنويًا بسعر المتجر المعروض حتى إلغائه في المتجر.",
+  "purchaseManageApple": "إدارة اشتراكات Apple",
+  "purchaseManageGoogle": "إدارة اشتراكات Google Play",
+  "purchaseBuyPrice": "شراء · {price}",
+  "serviceBillingUnavailable": "المشتريات غير متاحة على هذا الجهاز أو ضمن إعدادات المتجر هذه.",
+  "@purchaseTitle": {
+    "description": "Native store purchase and restore flow."
+  },
+  "@purchaseOpening": {
+    "description": "Native store purchase and restore flow."
+  },
+  "@purchasePending": {
+    "description": "Native store purchase and restore flow."
+  },
+  "@purchaseVerifying": {
+    "description": "Native store purchase and restore flow."
+  },
+  "@purchaseVerified": {
+    "description": "Native store purchase and restore flow."
+  },
+  "@purchaseCanceled": {
+    "description": "Native store purchase and restore flow."
+  },
+  "@purchaseFailed": {
+    "description": "Native store purchase and restore flow."
+  },
+  "@purchaseRetryMessage": {
+    "description": "Native store purchase and restore flow."
+  },
+  "@purchaseAccountRequired": {
+    "description": "Native store purchase and restore flow."
+  },
+  "@purchaseOwned": {
+    "description": "Native store purchase and restore flow."
+  },
+  "@purchaseRestore": {
+    "description": "Native store purchase and restore flow."
+  },
+  "@purchaseRetry": {
+    "description": "Native store purchase and restore flow."
+  },
+  "@purchaseRestoreHint": {
+    "description": "Native store purchase and restore flow."
+  },
+  "@purchaseMonthlyTerms": {
+    "description": "Native store purchase and restore flow."
+  },
+  "@purchaseYearlyTerms": {
+    "description": "Native store purchase and restore flow."
+  },
+  "@purchaseManageApple": {
+    "description": "Native store purchase and restore flow."
+  },
+  "@purchaseManageGoogle": {
+    "description": "Native store purchase and restore flow."
+  },
+  "@purchaseBuyPrice": {
+    "description": "Native store purchase and restore flow.",
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "@serviceBillingUnavailable": {
+    "description": "Explains which purchases require unavailable platform billing and which Noin purchases still work."
+  },
+  "bonusPremium": "مكافأة Premium",
+  "@bonusPremium": {
+    "description": "Title for a confirmed Premium match bonus."
+  },
+  "bonusRewardedAd": "مكافأة الإعلان",
+  "@bonusRewardedAd": {
+    "description": "Title for a server-verified rewarded-ad bonus."
+  },
+  "bonusCredited": "تمت إضافة {amount} Noin",
+  "@bonusCredited": {
+    "description": "Actual server-confirmed Noin credited, including zero.",
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "bonusCapped": "قلّل حد الكسب اليومي هذه المكافأة.",
+  "@bonusCapped": {
+    "description": "Explains a bonus limited by original-day earning caps."
+  },
+  "bonusSyncRetry": "تعذّرت مزامنة إيصالات مكافآتك. أعد المحاولة للتحقق من حالتها.",
+  "@bonusSyncRetry": {
+    "description": "Receipt read or dismissal synchronization failed; retry does not grant currency."
+  },
+  "bonusRequested": "المكافأة قبل الحد اليومي: {amount} Noin",
+  "@bonusRequested": {
+    "description": "Requested bonus before applying original-day caps, not an extra credit.",
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "rewardWatchAd": "شاهد إعلانًا للحصول على مكافأة المباراة",
+  "@rewardWatchAd": {
+    "description": "Explicit action for a server-authorized rewarded ad."
+  },
+  "rewardAdDetails": "يؤكد الخادم مكافأتك. تنطبق الحدود اليومية.",
+  "@rewardAdDetails": {
+    "description": "Server confirmation and daily-cap explanation for rewarded ads."
+  },
+  "rewardPrivacyChoices": "خيارات خصوصية الإعلانات",
+  "@rewardPrivacyChoices": {
+    "description": "Entry to the native required ad privacy choices form."
+  }
+}

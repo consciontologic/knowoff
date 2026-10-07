@@ -1,0 +1,1602 @@
+{
+  "@@locale": "en_XA",
+  "appTitle": "[Knowoff]",
+  "@appTitle": {
+    "description": "The app name shown in the launcher and window title."
+  },
+  "mainMenuPlay": "[Play]",
+  "@mainMenuPlay": {
+    "description": "Main menu button to enter Quick Play queue."
+  },
+  "mainMenuLocalRoom": "[Local Room]",
+  "@mainMenuLocalRoom": {
+    "description": "Main menu button to create or join a local room."
+  },
+  "queueInitializing": "[Joining queue...]",
+  "@queueInitializing": {
+    "description": "Queue status before the intent has been sent."
+  },
+  "playersCount": "[{count, plural, =0{[No players]} =1{[One player]} other{[{count} players]}}]",
+  "@playersCount": {
+    "description": "Player count label with ICU plural support.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "mainMenuStore": "[Store]",
+  "@mainMenuStore": {
+    "description": "Main menu button to open the store screen."
+  },
+  "mainMenuNotices": "[Notices]",
+  "@mainMenuNotices": {
+    "description": "Main menu button to open the notice inbox."
+  },
+  "storeTitle": "[Store]",
+  "@storeTitle": {
+    "description": "Store screen title."
+  },
+  "storeNoinBalance": "[{balance} Noin]",
+  "@storeNoinBalance": {
+    "description": "Noin balance chip label.",
+    "placeholders": {
+      "balance": {
+        "type": "int"
+      }
+    }
+  },
+  "storePlayPasses": "[Play Passes]",
+  "@storePlayPasses": {
+    "description": "Store section header for play passes."
+  },
+  "storePlayPassDay1": "[1 day]",
+  "@storePlayPassDay1": {
+    "description": "Label for the 1-day play pass."
+  },
+  "storePlayPassDay3": "[3 days]",
+  "@storePlayPassDay3": {
+    "description": "Label for the 3-day play pass."
+  },
+  "storePlayPassDay7": "[7 days]",
+  "@storePlayPassDay7": {
+    "description": "Label for the 7-day play pass."
+  },
+  "storeBuy": "[Buy]",
+  "@storeBuy": {
+    "description": "Buy button label."
+  },
+  "storeBuyPrice": "[Buy {price}]",
+  "@storeBuyPrice": {
+    "description": "Buy button label with a price.",
+    "placeholders": {
+      "price": {
+        "type": "int"
+      }
+    }
+  },
+  "storeNoinBulks": "[Noin Bulks]",
+  "@storeNoinBulks": {
+    "description": "Store section header for Noin bulk packs."
+  },
+  "storeBulkSize": "[{size} Noin]",
+  "@storeBulkSize": {
+    "description": "Label for a Noin bulk pack size.",
+    "placeholders": {
+      "size": {
+        "type": "int"
+      }
+    }
+  },
+  "storeUnlocks": "[Unlocks]",
+  "@storeUnlocks": {
+    "description": "Store section header for permanent unlocks."
+  },
+  "storeUnlockCustomAvatar": "[Custom Avatar]",
+  "@storeUnlockCustomAvatar": {
+    "description": "Label for the custom avatar unlock."
+  },
+  "storeUnlockPokeStyle": "[Poke Style]",
+  "@storeUnlockPokeStyle": {
+    "description": "Label for the poke style unlock."
+  },
+  "storeUnlockThemePack": "[Theme Pack]",
+  "@storeUnlockThemePack": {
+    "description": "Label for the theme pack unlock."
+  },
+  "storePremium": "[Premium]",
+  "@storePremium": {
+    "description": "Premium subscription section header."
+  },
+  "storePremiumMonthly": "[Monthly]",
+  "@storePremiumMonthly": {
+    "description": "Monthly premium plan label."
+  },
+  "storePremiumYearly": "[Yearly]",
+  "@storePremiumYearly": {
+    "description": "Yearly premium plan label."
+  },
+  "storePremiumYearlyDiscount": "[Save {percent}%]",
+  "@storePremiumYearlyDiscount": {
+    "description": "Yearly discount note.",
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "storeBought": "[Purchased]",
+  "@storeBought": {
+    "description": "Snackbar confirmation after a successful purchase."
+  },
+  "storeError": "[Purchase failed. Try again.]",
+  "@storeError": {
+    "description": "Snackbar error after a failed purchase."
+  },
+  "convertPointsTitle": "[Convert Points]",
+  "@convertPointsTitle": {
+    "description": "Convert points dialog title."
+  },
+  "convertPointsHint": "[Points to convert]",
+  "@convertPointsHint": {
+    "description": "Input hint for points conversion."
+  },
+  "convertPointsMultiple": "[Must be a multiple of {rate}.]",
+  "@convertPointsMultiple": {
+    "description": "Validation message for points conversion multiples.",
+    "placeholders": {
+      "rate": {
+        "type": "int"
+      }
+    }
+  },
+  "convertPointsConvert": "[Convert]",
+  "@convertPointsConvert": {
+    "description": "Convert points button label."
+  },
+  "convertPointsResult": "[You received {amount} Noin]",
+  "@convertPointsResult": {
+    "description": "Result message after converting points.",
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "noticeMaintenanceIn": "[Maintenance in {duration}]",
+  "@noticeMaintenanceIn": {
+    "description": "Maintenance countdown banner label.",
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "noticeInboxTitle": "[Notices]",
+  "@noticeInboxTitle": {
+    "description": "Notice inbox screen title."
+  },
+  "noticeTypeMaintenance": "[Maintenance]",
+  "@noticeTypeMaintenance": {
+    "description": "Label for maintenance notice type."
+  },
+  "noticeTypeDowntime": "[Downtime]",
+  "@noticeTypeDowntime": {
+    "description": "Label for downtime notice type."
+  },
+  "noticeTypeAnnouncement": "[Announcement]",
+  "@noticeTypeAnnouncement": {
+    "description": "Label for announcement notice type."
+  },
+  "reportTitle": "[Report]",
+  "@reportTitle": {
+    "description": "Report dialog title."
+  },
+  "reportType": "[Type]",
+  "@reportType": {
+    "description": "Report type field label."
+  },
+  "reportTypeConduct": "[Inappropriate conduct]",
+  "@reportTypeConduct": {
+    "description": "Report type option for conduct."
+  },
+  "reportTypeMedia": "[Inappropriate media]",
+  "@reportTypeMedia": {
+    "description": "Report type option for media."
+  },
+  "reportTypeCheating": "[Cheating or collusion]",
+  "@reportTypeCheating": {
+    "description": "Report type option for cheating."
+  },
+  "reportTypeHarassment": "[Harassment]",
+  "@reportTypeHarassment": {
+    "description": "Report type option for harassment."
+  },
+  "reportReason": "[Reason]",
+  "@reportReason": {
+    "description": "Report reason field label."
+  },
+  "reportDescription": "[Description (optional)]",
+  "@reportDescription": {
+    "description": "Report description field label."
+  },
+  "reportSubmit": "[Submit Report]",
+  "@reportSubmit": {
+    "description": "Report submit button label."
+  },
+  "feedbackTitle": "[Feedback]",
+  "@feedbackTitle": {
+    "description": "Feedback dialog title."
+  },
+  "feedbackType": "[Type]",
+  "@feedbackType": {
+    "description": "Feedback type field label."
+  },
+  "feedbackTypeBug": "[Bug]",
+  "@feedbackTypeBug": {
+    "description": "Feedback type option for bug."
+  },
+  "feedbackTypeIdea": "[Idea]",
+  "@feedbackTypeIdea": {
+    "description": "Feedback type option for idea."
+  },
+  "feedbackTypeOther": "[Other]",
+  "@feedbackTypeOther": {
+    "description": "Feedback type option for other."
+  },
+  "feedbackTitleHint": "[Short summary]",
+  "@feedbackTitleHint": {
+    "description": "Feedback title input hint."
+  },
+  "feedbackMessage": "[Message]",
+  "@feedbackMessage": {
+    "description": "Feedback message field label."
+  },
+  "feedbackSubmit": "[Send Feedback]",
+  "@feedbackSubmit": {
+    "description": "Feedback submit button label."
+  },
+  "avatarUploadTitle": "[Custom Avatar]",
+  "@avatarUploadTitle": {
+    "description": "Avatar upload sheet title."
+  },
+  "avatarUploadPick": "[Pick Image]",
+  "@avatarUploadPick": {
+    "description": "Avatar upload pick image button."
+  },
+  "avatarUploadSubmit": "[Upload]",
+  "@avatarUploadSubmit": {
+    "description": "Avatar upload submit button."
+  },
+  "ok": "[OK]",
+  "@ok": {
+    "description": "OK action label."
+  },
+  "close": "[Close]",
+  "@close": {
+    "description": "Close action label."
+  },
+  "mainMenuFeedback": "[Feedback]",
+  "@mainMenuFeedback": {
+    "description": "Main menu button to open the feedback dialog."
+  },
+  "localRoomHostAction": "[Host a Room]",
+  "@localRoomHostAction": {
+    "description": "Local Room chooser: create a new room as host."
+  },
+  "localRoomJoinAction": "[Join with Code]",
+  "@localRoomJoinAction": {
+    "description": "Local Room chooser: join an existing room by code."
+  },
+  "roomSizeChooserTitle": "[Room size]",
+  "@roomSizeChooserTitle": {
+    "description": "Title for the host room-size picker."
+  },
+  "roomSize4": "[4 players]",
+  "@roomSize4": {
+    "description": "Room size option: 4 players."
+  },
+  "roomSize6": "[6 players]",
+  "@roomSize6": {
+    "description": "Room size option: 6 players."
+  },
+  "profileChangeAvatar": "[Change Avatar]",
+  "@profileChangeAvatar": {
+    "description": "Profile screen button to open the avatar upload sheet."
+  },
+  "reportPlayerAction": "[Report player]",
+  "@reportPlayerAction": {
+    "description": "Button in the seat sheet that opens a conduct report."
+  },
+  "seatNumberLabel": "[Seat {seat}]",
+  "@seatNumberLabel": {
+    "description": "Subtitle under a player's name in the seat sheet.",
+    "placeholders": {
+      "seat": {
+        "type": "int"
+      }
+    }
+  },
+  "seatSheetBotNote": "[Backfill bot. It earns nothing and has no profile.]",
+  "@seatSheetBotNote": {
+    "description": "Explains why a bot seat shows no career stats."
+  },
+  "seatSheetNoStats": "[No public profile for this seat.]",
+  "@seatSheetNoStats": {
+    "description": "Shown when a seat has no account to look stats up for."
+  },
+  "drawPileLabel": "[Draw pile]",
+  "@drawPileLabel": {
+    "description": "Caption on the draw pile object."
+  },
+  "freeDrawHeadline": "[FREE CARD!]",
+  "@freeDrawHeadline": {
+    "description": "Dramatic headline when a One More Free Card specialty banks a free draw."
+  },
+  "freeDrawBlurb": "[{name}'s next pile draw costs 0!]",
+  "@freeDrawBlurb": {
+    "description": "Public announcement that a One More Free Card made the player's next pile draw free.",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "revoteRushHint": "[Last seconds — slam it before the ballot closes!]",
+  "@revoteRushHint": {
+    "description": "Urgent Revote hint shown during the final five seconds of the ballot window."
+  },
+  "specialtyRevoteOwnerHint": "[Nowers only.]",
+  "@specialtyRevoteOwnerHint": {
+    "description": "Small static note on the Revote card in-hand naming which role may use it."
+  },
+  "handRevealHeadline": "[HAND HEIST!]",
+  "@handRevealHeadline": {
+    "description": "Dramatic headline when a Reveal specialty exposes a hand."
+  },
+  "handRevealAnnouncement": "[{name}'s hand is exposed!]",
+  "@handRevealAnnouncement": {
+    "description": "Public Reveal announcement naming the exposed player.",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "turnTimeRemaining": "[{seconds}s left]",
+  "@turnTimeRemaining": {
+    "description": "Turn timer countdown label.",
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "rematchVacantSeatHint": "[Waiting for a new player to click Quick Play…]",
+  "@rematchVacantSeatHint": {
+    "description": "Shown once a seat opened up for Quick Play backfill."
+  },
+  "homeEyebrow": "⟦A VERY SUSPICIOUS PARTY GAME ~~~⟧",
+  "@homeEyebrow": {
+    "description": "Uppercase introductory label on the home screen; describes the social deduction party game."
+  },
+  "homeHeadline": "⟦No clue.\nFull confidence. ~~~⟧",
+  "@homeHeadline": {
+    "description": "Playful two-line home headline about bluffing with confidence. Preserve the line break."
+  },
+  "homeIntro": "⟦One shared clue. A table of terrible alibis. Someone is bluffing — beautifully. ~~~⟧",
+  "@homeIntro": {
+    "description": "Home introduction explaining the shared clue and the bluffers around the table."
+  },
+  "homeStamp": "⟦TRUST ISSUES? GOOD. ~~~⟧",
+  "@homeStamp": {
+    "description": "Decorative home stamp joking that distrust is useful in this game."
+  },
+  "homePlayHeading": "⟦Find your suspects ~~~⟧",
+  "@homePlayHeading": {
+    "description": "Heading above the Quick Play room-size choices; suspects means other players."
+  },
+  "homePlayHint": "⟦Pick a table. Bring your best poker face. ~~~⟧",
+  "@homePlayHint": {
+    "description": "Help below the Quick Play heading, using poker face as a metaphor for hiding a role."
+  },
+  "homeLocalHeading": "⟦Same sofa. More suspicion. ~~~⟧",
+  "@homeLocalHeading": {
+    "description": "Heading for hosting or joining a local room with friends."
+  },
+  "homeLocalHint": "⟦Pass around a room code. Keep your role to yourself. ~~~⟧",
+  "@homeLocalHint": {
+    "description": "Local-room instructions to share the code while keeping each player role private."
+  },
+  "homeExhibit": "⟦EXHIBIT A ~~~⟧",
+  "@homeExhibit": {
+    "description": "Decorative label above the sample clue; uses a detective evidence metaphor."
+  },
+  "homeExampleClue": "⟦A very innocent-looking banana. ~~~⟧",
+  "@homeExampleClue": {
+    "description": "Illustrative home-screen clue, a banana described as innocent."
+  },
+  "homeExampleAlibi": "⟦“Obviously, my card fits.” ~~~⟧",
+  "@homeExampleAlibi": {
+    "description": "Illustrative player excuse in quotation marks on the home-screen sample card."
+  },
+  "homeExampleVerdict": "⟦Suspiciously confident. ~~~⟧",
+  "@homeExampleVerdict": {
+    "description": "Caption on the sample card joking about the player sounding too confident."
+  },
+  "homeFooter": "⟦Good friends. Bad explanations. Great evidence. ~~~⟧",
+  "@homeFooter": {
+    "description": "Playful home footer about friends defending their card choices."
+  },
+  "homeHowTo": "⟦The short version ~~~⟧",
+  "@homeHowTo": {
+    "description": "Heading for the expandable introduction to the game rules."
+  },
+  "homeRuleOne": "⟦See the clue. Or pretend you do. ~~~⟧",
+  "@homeRuleOne": {
+    "description": "First short rule: Nowers see the clue and Donowers must bluff."
+  },
+  "homeRuleTwo": "⟦Play a card. Defend your nonsense. ~~~⟧",
+  "@homeRuleTwo": {
+    "description": "Second short rule: play a card and explain how it relates to the clue."
+  },
+  "homeRuleThree": "⟦Vote out the bluffers. Trust nobody. ~~~⟧",
+  "@homeRuleThree": {
+    "description": "Third short rule: vote to identify and eliminate bluffers."
+  },
+  "roomCodeHint": "⟦Six characters. Endless accusations. ~~~⟧",
+  "@roomCodeHint": {
+    "description": "Playful helper text below the six-character room-code field."
+  },
+  "roomCodeInvalid": "⟦Enter the six-character room code. ~~~⟧",
+  "@roomCodeInvalid": {
+    "description": "Validation error for a room code that is not six characters long."
+  },
+  "roomJoinHeading": "⟦You have the code? ~~~⟧",
+  "@roomJoinHeading": {
+    "description": "Heading above the form used to join an existing local room."
+  },
+  "roomHostHeading": "⟦Set the table ~~~⟧",
+  "@roomHostHeading": {
+    "description": "Heading above the room-size choice when hosting a local room."
+  },
+  "gameMediaUnavailable": "⟦This clue could not load. ~~~⟧",
+  "@gameMediaUnavailable": {
+    "description": "Fallback label when a clue media asset fails to load."
+  },
+  "gameRevealExpired": "⟦This hand is hidden again. ~~~⟧",
+  "@gameRevealExpired": {
+    "description": "Shown after the temporary Reveal view of another player hand expires."
+  },
+  "serviceSave": "⟦Save ~~~⟧",
+  "@serviceSave": {
+    "description": "Action that saves edits to an account or profile."
+  },
+  "serviceSaved": "⟦Saved. Looking suspiciously good. ~~~⟧",
+  "@serviceSaved": {
+    "description": "Confirmation after saving the profile, with a lighthearted suspicion joke."
+  },
+  "serviceRequired": "⟦Give this field something to work with. ~~~⟧",
+  "@serviceRequired": {
+    "description": "Validation message for an empty required field."
+  },
+  "serviceNicknameInvalid": "⟦Choose a shorter nickname; accented characters may take more space. ~~~⟧",
+  "@serviceNicknameInvalid": {
+    "description": "Nickname validation error for exceeding the allowed encoded length."
+  },
+  "serviceBillingUnavailable": "［Purchases are unavailable on this device or for this store configuration. !!!］",
+  "@serviceBillingUnavailable": {
+    "description": "Explains which purchases require unavailable platform billing and which Noin purchases still work."
+  },
+  "serviceConvertWarning": "⟦One way only: converted points leave your balance forever. Overall Points stay untouched. ~~~⟧",
+  "@serviceConvertWarning": {
+    "description": "Warning before permanently converting spendable points to Noin; lifetime Overall Points are unchanged."
+  },
+  "serviceProfileEyebrow": "⟦THE OFFICIAL ALIBI ~~~⟧",
+  "@serviceProfileEyebrow": {
+    "description": "Decorative profile heading using an alibi metaphor."
+  },
+  "serviceProfileBlurb": "⟦A face. A name. An extremely debatable reputation. ~~~⟧",
+  "@serviceProfileBlurb": {
+    "description": "Playful description beneath the profile heading."
+  },
+  "serviceLeaderboardEyebrow": "⟦THIS WEEK’S BIG TALKERS ~~~⟧",
+  "@serviceLeaderboardEyebrow": {
+    "description": "Decorative heading for this week’s leaderboard."
+  },
+  "serviceStoreEyebrow": "⟦THE NOIN EXCHANGE ~~~⟧",
+  "@serviceStoreEyebrow": {
+    "description": "Decorative store heading; Noin is the game currency name."
+  },
+  "serviceStoreBlurb": "⟦Spend on more play and more personality. Your bluff stays yours. ~~~⟧",
+  "@serviceStoreBlurb": {
+    "description": "Store description explaining that purchases provide play access or customization."
+  },
+  "serviceNoticesEyebrow": "⟦HEAR YE. HEAR YE. ~~~⟧",
+  "@serviceNoticesEyebrow": {
+    "description": "Decorative notices heading styled as a public announcement."
+  },
+  "serviceFeedbackEyebrow": "⟦COMPLAINTS & BRILLIANT IDEAS ~~~⟧",
+  "@serviceFeedbackEyebrow": {
+    "description": "Decorative heading for the feedback form."
+  },
+  "serviceFeedbackSent": "⟦Message delivered. The backstage crew is on it. ~~~⟧",
+  "@serviceFeedbackSent": {
+    "description": "Confirmation that feedback was submitted to the team."
+  },
+  "serviceReportSent": "⟦Report sent. Thanks for looking out for the table. ~~~⟧",
+  "@serviceReportSent": {
+    "description": "Confirmation that a conduct or media report was submitted for review."
+  },
+  "serviceAvatarDefault": "⟦Classic ~~~⟧",
+  "@serviceAvatarDefault": {
+    "description": "Display name of the standard preset avatar."
+  },
+  "serviceAvatarDetective": "⟦Detective ~~~⟧",
+  "@serviceAvatarDetective": {
+    "description": "Display name of the detective preset avatar."
+  },
+  "serviceAvatarParty": "⟦Party ~~~⟧",
+  "@serviceAvatarParty": {
+    "description": "Display name of the party preset avatar."
+  },
+  "serviceUnlockValue": "⟦Pack or style ID ~~~⟧",
+  "@serviceUnlockValue": {
+    "description": "Field label for a theme-pack or poke-style identifier used for an unlock."
+  },
+  "serviceContext": "⟦Included context ~~~⟧",
+  "@serviceContext": {
+    "description": "Heading for the match or media context attached to a report."
+  },
+  "serviceNoContext": "⟦No match context attached. ~~~⟧",
+  "@serviceNoContext": {
+    "description": "Shown when a report has no attached match context."
+  },
+  "serviceCatalogUnavailable": "⟦This collection is not available yet. ~~~⟧",
+  "@serviceCatalogUnavailable": {
+    "description": "Empty state when a requested store collection is not available."
+  },
+  "serviceVoteAccuracy": "⟦Vote accuracy ~~~⟧",
+  "@serviceVoteAccuracy": {
+    "description": "Profile statistic showing the accuracy of the player’s votes."
+  },
+  "serviceSurvivalRate": "⟦Donower survival ~~~⟧",
+  "@serviceSurvivalRate": {
+    "description": "Profile statistic showing how often the player survives as a Donower."
+  },
+  "serviceWeekWins": "⟦Week Winner titles ~~~⟧",
+  "@serviceWeekWins": {
+    "description": "Profile statistic counting weekly first-place titles."
+  },
+  "servicePodiums": "⟦Weekly podiums ~~~⟧",
+  "@servicePodiums": {
+    "description": "Profile statistic counting weekly top-three finishes."
+  },
+  "servicePokesSent": "⟦Pokes sent ~~~⟧",
+  "@servicePokesSent": {
+    "description": "Profile statistic counting pokes sent to other players."
+  },
+  "serviceCredits": "⟦Contributor credits ~~~⟧",
+  "@serviceCredits": {
+    "description": "Profile statistic showing credits earned through content contributions."
+  },
+  "serviceAvatarLimits": "⟦JPEG or PNG, up to 2 MB and 2048 × 2048 pixels. ~~~⟧",
+  "@serviceAvatarLimits": {
+    "description": "Avatar upload requirements: accepted image formats, file size, and pixel dimensions."
+  },
+  "serviceAvatarInvalid": "⟦Choose a JPEG or PNG within the size limits. ~~~⟧",
+  "@serviceAvatarInvalid": {
+    "description": "Validation error when an avatar file violates the format or size limits."
+  },
+  "serviceAvatarCost": "[!! Buy the permanent Custom Avatar unlock once. Replacement uploads cost no extra Noin. !!]",
+  "@serviceAvatarCost": {
+    "description": "Explains where to find the Noin price for unlocking custom avatars."
+  },
+  "serviceAvatarSelected": "⟦Image selected. Upload when you are ready. ~~~⟧",
+  "@serviceAvatarSelected": {
+    "description": "Confirmation that an avatar image has been selected but has not yet been uploaded."
+  },
+  "serviceAvatarCostPrice": "[!! Permanent Custom Avatar unlock: {price} Noin. !!]",
+  "@serviceAvatarCostPrice": {
+    "description": "Explains the first custom-avatar unlock cost and that existing unlock owners are not charged again.",
+    "placeholders": {
+      "price": {
+        "type": "int"
+      }
+    }
+  },
+  "serviceAvatarSubmitted": "[!! Avatar approved and updated. !!]",
+  "@serviceAvatarSubmitted": {
+    "description": "Confirmation that the uploaded avatar was submitted for moderation."
+  },
+  "serviceAvatarReview": "[!! Your image is screened before activation. A failed upload keeps your current avatar. !!]",
+  "@serviceAvatarReview": {
+    "description": "Explains that the current preset avatar remains visible while a custom upload is reviewed."
+  },
+  "navigationPlay": "[!! Play !!!]",
+  "@navigationPlay": {
+    "description": "Main navigation destination for Quick Play and local rooms."
+  },
+  "serviceRefresh": "[!! Refresh Ref !!]",
+  "@serviceRefresh": {
+    "description": "Action and accessibility label for reloading account or service data."
+  },
+  "portalTitle": "[Contributor Portal]",
+  "@portalTitle": {
+    "description": "Title and profile entry point for connecting to the browser-based contributor portal."
+  },
+  "portalIntro": "[Make the next great alibi.]",
+  "@portalIntro": {
+    "description": "Playful introduction to contributing game content."
+  },
+  "portalBrowserHint": "[Apply for a role, create content, and review submissions in your browser. Open the portal, then enter the code shown there.]",
+  "@portalBrowserHint": {
+    "description": "Explains the web-only contributor workflow and pairing steps."
+  },
+  "portalOpen": "[Open portal in browser]",
+  "@portalOpen": {
+    "description": "Action that opens the trusted contributor login page in an external browser."
+  },
+  "portalCode": "[Browser code]",
+  "@portalCode": {
+    "description": "Label for the short code displayed on the contributor login page."
+  },
+  "portalCodeInvalid": "[Enter the 8-character code from your portal page (letters A–Z and digits 2–7).]",
+  "@portalCodeInvalid": {
+    "description": "Validation message for a malformed Base32 pairing code."
+  },
+  "portalConfirmBrowser": "[I opened this sign-in page myself and want to connect it to my player account.]",
+  "@portalConfirmBrowser": {
+    "description": "Explicit confirmation that the player initiated the browser pairing request."
+  },
+  "portalConnect": "[Connect my browser]",
+  "@portalConnect": {
+    "description": "Action authorizing the browser code to use the current player account."
+  },
+  "portalConnected": "[Browser approved. Return to the portal and select Continue.]",
+  "@portalConnected": {
+    "description": "Success message after approval; the user must finish login in the browser."
+  },
+  "portalExpired": "[That code has expired or was already used. Open a fresh portal sign-in page and try its new code.]",
+  "@portalExpired": {
+    "description": "Recovery message for an invalid, expired, or consumed pairing code."
+  },
+  "portalForbidden": "[This account cannot access the portal right now.]",
+  "@portalForbidden": {
+    "description": "Error for an account banned or frozen from portal access."
+  },
+  "portalRateLimited": "[Too many attempts. Wait a moment before trying again.]",
+  "@portalRateLimited": {
+    "description": "Recovery message after the portal pairing attempt limit is reached."
+  },
+  "portalOpenFailed": "[The browser could not open. Copy the address above into your browser.]",
+  "@portalOpenFailed": {
+    "description": "Fallback when the operating system cannot open the contributor portal URL."
+  },
+  "challengeTitle": "[Weekly Nown Challenge]",
+  "@challengeTitle": {
+    "description": "Community challenge title and home-screen entry point; Nown is the game clue name."
+  },
+  "challengeIntro": "[One topic. One shot. Make it count.]",
+  "@challengeIntro": {
+    "description": "Playful challenge introduction reflecting the one-entry-only rule."
+  },
+  "challengeHomeHint": "[Turn this week’s topic into the community’s best excuse.]",
+  "@challengeHomeHint": {
+    "description": "Home-screen introduction to the weekly community challenge."
+  },
+  "challengeEmpty": "[The next topic is still backstage. Check back when a new challenge opens.]",
+  "@challengeEmpty": {
+    "description": "Empty state when no challenge topic is scheduled for the current week."
+  },
+  "challengeTopic": "[This week’s Nown]",
+  "@challengeTopic": {
+    "description": "Heading above the weekly challenge topic."
+  },
+  "challengeRules": "[One entry and one vote per player. Both are final. Entries appear only after screening; you cannot vote for your own.]",
+  "@challengeRules": {
+    "description": "Plain-language explanation of participation and moderation rules."
+  },
+  "challengeTextOnly": "[Text entries are open. Image uploads are not available yet.]",
+  "@challengeTextOnly": {
+    "description": "Honest scope label for the current text-only challenge submission interface."
+  },
+  "challengeEntryHeading": "[Your one shot]",
+  "@challengeEntryHeading": {
+    "description": "Heading above the one-time challenge entry form."
+  },
+  "challengeContent": "[Your entry]",
+  "@challengeContent": {
+    "description": "Field label for the player’s text response to the weekly Nown."
+  },
+  "challengeContentInvalid": "[Add an entry within the text limit. Accented characters may use more space.]",
+  "@challengeContentInvalid": {
+    "description": "Validation error for an empty or over-limit UTF-8 text challenge entry."
+  },
+  "challengeTerms": "[Read contribution terms]",
+  "@challengeTerms": {
+    "description": "Expandable heading revealing the current server-provided contribution terms."
+  },
+  "challengeAcceptTerms": "[I accept these contribution terms, including commercial use and modification of my entry.]",
+  "@challengeAcceptTerms": {
+    "description": "Required unchecked consent before a player submits an entry."
+  },
+  "challengeConsentRequired": "[Read and accept the contribution terms before submitting.]",
+  "@challengeConsentRequired": {
+    "description": "Validation error when required contribution consent has not been given."
+  },
+  "challengeSubmit": "[Submit my entry]",
+  "@challengeSubmit": {
+    "description": "Action that opens final confirmation for the immutable challenge entry."
+  },
+  "challengeSubmitConfirm": "[Submit this entry for good?]",
+  "@challengeSubmitConfirm": {
+    "description": "Title of the final immutable-entry confirmation dialog."
+  },
+  "challengeSubmitWarning": "[You cannot edit or replace it after submitting. It will appear publicly only after automated and human screening.]",
+  "@challengeSubmitWarning": {
+    "description": "Explains permanence and screening before the final submit action."
+  },
+  "challengeFinalSubmit": "[Submit final entry]",
+  "@challengeFinalSubmit": {
+    "description": "Final action committing the immutable challenge entry."
+  },
+  "challengeOwnEntry": "[Your submitted entry]",
+  "@challengeOwnEntry": {
+    "description": "Heading for the player’s immutable submitted entry and its moderation status."
+  },
+  "challengePending": "[Awaiting screening]",
+  "@challengePending": {
+    "description": "Status for an entry that has not completed automated and human moderation."
+  },
+  "challengeApproved": "[Approved · visible to everyone]",
+  "@challengeApproved": {
+    "description": "Status for an approved publicly visible entry."
+  },
+  "challengeRejected": "[Not accepted]",
+  "@challengeRejected": {
+    "description": "Status for a rejected entry; the player may see their own rejection reason."
+  },
+  "challengeClosed": "[Entries are closed for this challenge.]",
+  "@challengeClosed": {
+    "description": "Shown when the server says new submissions are unavailable."
+  },
+  "challengeGallery": "[The community’s case]",
+  "@challengeGallery": {
+    "description": "Heading above the public gallery of approved challenge entries."
+  },
+  "challengeNoEntries": "[The evidence is being checked. Approved entries will appear here.]",
+  "@challengeNoEntries": {
+    "description": "Empty gallery state before any challenge entry has been approved."
+  },
+  "challengeAnonymous": "[Community player]",
+  "@challengeAnonymous": {
+    "description": "Fallback attribution when an approved entry has no public nickname."
+  },
+  "challengeVote": "[Vote for this entry]",
+  "@challengeVote": {
+    "description": "Action that opens confirmation to vote for a particular challenge entry."
+  },
+  "challengeVoteConfirm": "[Make this your one vote?]",
+  "@challengeVoteConfirm": {
+    "description": "Title of the immutable-vote confirmation dialog."
+  },
+  "challengeVoteWarning": "[Your vote is final. Pick the entry that best matches the Nown.]",
+  "@challengeVoteWarning": {
+    "description": "Explains that a weekly challenge vote cannot be changed."
+  },
+  "challengeFinalVote": "[Cast final vote]",
+  "@challengeFinalVote": {
+    "description": "Final action committing the player’s immutable challenge vote."
+  },
+  "challengeVoted": "[Your vote]",
+  "@challengeVoted": {
+    "description": "Label marking the entry that received the player’s one vote."
+  },
+  "challengeVotesClosed": "[Voting is closed.]",
+  "@challengeVotesClosed": {
+    "description": "Shown when a challenge has closed for voting."
+  },
+  "challengeUpdatedTerms": "[The contribution terms changed. Read the updated terms and accept them before trying again.]",
+  "@challengeUpdatedTerms": {
+    "description": "Recovery when submission used a stale contribution-terms version."
+  },
+  "challengeAlreadySubmitted": "[Your entry is already on record. Refresh to see its status.]",
+  "@challengeAlreadySubmitted": {
+    "description": "Recovery when the server has already recorded this player’s immutable entry."
+  },
+  "challengeAlreadyVoted": "[Your vote is already on record. Refresh to see it.]",
+  "@challengeAlreadyVoted": {
+    "description": "Recovery when the server has already recorded this player’s immutable vote."
+  },
+  "challengeUnavailable": "[This challenge or entry is no longer available for that action. Refresh and try again.]",
+  "@challengeUnavailable": {
+    "description": "Recovery when challenge state changes between display and submission or vote."
+  },
+  "challengeRefreshFailed": "[Updates could not load. Your draft is safe; try Refresh.]",
+  "@challengeRefreshFailed": {
+    "description": "Non-destructive refresh failure message when existing challenge data and draft remain visible."
+  },
+  "challengeSlots": "[{count} entry slots remaining]",
+  "@challengeSlots": {
+    "description": "Number of remaining accepted intake slots, supplied by the server.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "challengeVoteCount": "[{count} votes]",
+  "@challengeVoteCount": {
+    "description": "Public current vote count for an approved challenge entry.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "challengeByteLimit": "[Up to {count} UTF-8 bytes]",
+  "@challengeByteLimit": {
+    "description": "Maximum encoded text size accepted by the challenge server.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "challengeWinner": "[Week Winner]",
+  "@challengeWinner": {
+    "description": "Badge on the authoritative winning entry after the server closes a weekly challenge."
+  },
+  "challengeWinnerAnnounced": "[The week is closed. Meet your Week Winner.]",
+  "@challengeWinnerAnnounced": {
+    "description": "Closed-week banner when the server records a winning entry; never inferred from vote tallies."
+  },
+  "challengeNoWinner": "[This week is closed with no winner.]",
+  "@challengeNoWinner": {
+    "description": "Final outcome when a closed weekly challenge has no winning entry."
+  },
+  "challengeForbidden": "[This account cannot participate in the challenge right now.]",
+  "@challengeForbidden": {
+    "description": "Shown when the server denies challenge access or participation for a deleted or restricted account."
+  },
+  "textModeBriefing": "［Missed the Briefing ···］",
+  "textModeScale": "［Secret Scale ···］",
+  "textModeRoom": "［Make Room ···］",
+  "textModeBargains": "［Bad Bargains ···］",
+  "textModeTop": "［Top That ···］",
+  "textChooseMode": "［Choose a mode ···］",
+  "textContentLanguage": "［Content language ···］",
+  "textPack": "[!! Pack !!]",
+  "textUnavailable": "［This mode is not available yet. ···］",
+  "textWithdrawn": "［Your last mode is unavailable. Choose an available mode to continue. ···］",
+  "textConnect": "［Check available modes ···］",
+  "textCreate": "［Create room ···］",
+  "textJoin": "［Join room ···］",
+  "textConfirm": "［Confirm move ···］",
+  "textPreview": "［Preview your move ···］",
+  "textCancel": "［Cancel ···］",
+  "textRespond": "［Respond ···］",
+  "textPlace": "［Place ···］",
+  "textReplace": "［Replace ···］",
+  "textOffer": "［Offer trade ···］",
+  "textTop": "［Top that ···］",
+  "textAccept": "［Accept trade ···］",
+  "textRefuse": "［Refuse trade ···］",
+  "textReady": "［Ready ···］",
+  "textStart": "［Start match ···］",
+  "textLeave": "［Leave ···］",
+  "textKeepWaiting": "［Keep waiting ···］",
+  "textChangeMode": "［Change mode ···］",
+  "textWaiting": "［Waiting for a full human table ···］",
+  "textSync": "［Synchronizing the complete match history… ···］",
+  "textUpgrade": "［Update the app to continue. This server uses a different game version. ···］",
+  "textStale": "［The table changed. Your move was cleared while the latest state is loaded. ···］",
+  "textError": "［The request could not be completed. Please try again. ···］",
+  "textUnknownPrompt": "［The shared prompt stays hidden for your role. ···］",
+  "textBoard": "［Public table ···］",
+  "textHistory": "［Public history ···］",
+  "textHand": "［Your hand ···］",
+  "textDraw": "［Draw one card ···］",
+  "textRating": "［Rating ···］",
+  "textSlot": "［Slot ···］",
+  "textTarget": "［Choose the displayed card to request ···］",
+  "textSystem": "［System ···］",
+  "textSpectating": "［You are spectating. Private cards and prompts have been cleared. ···］",
+  "textRetry": "［Retry the same request ···］",
+  "textRematch": "［Return to settings for a rematch ···］",
+  "textChat": "［Message ···］",
+  "textSend": "［Send ···］",
+  "textPoke": "［Poke ···］",
+  "textVote": "［Vote ···］",
+  "textAbstain": "［No vote selected ···］",
+  "textReadyHint": "［Ready acknowledges these settings and the current membership. Changes clear everyone’s Ready. ···］",
+  "textPrivate": "［Private prompt ···］",
+  "textResults": "［Results ···］",
+  "textOfferPending": "［A trade is awaiting its recipient’s response. ···］",
+  "textDeadline": "［Server deadline ···］",
+  "textRoomCode": "［Room code ···］",
+  "textQuickPlay": "［Quick Play ···］",
+  "textLocalRoom": "［Local Room ···］",
+  "textReturnMenu": "［Back to menu ···］",
+  "textPreviousPage": "［Previous page ···］",
+  "textNextPage": "［Next page ···］",
+  "textRules": "[!! Rules !!]",
+  "textPlayers": "[!! Players !!]",
+  "textRewardsOn": "[!! Rewards eligible !!]",
+  "textRewardsOff": "[!! No rewards for this match !!]",
+  "textBriefingInstruction": "[!! Play one card as your response. !!]",
+  "textScaleInstruction": "[!! Place a card at a rating from 1 to 5. !!]",
+  "textRoomInstruction": "[!! Replace one bag slot. The displaced card stays in public history. !!]",
+  "textBargainsInstruction": "[!! Offer a card for another player’s display. They may accept or refuse. !!]",
+  "textTopInstruction": "[!! Add a card above the current top. !!]",
+  "textRunoff": "[!! Runoff !!]",
+  "textAutomatic": "[!! Automatic !!]",
+  "textSeed": "[!! Starting cards !!]",
+  "textDisconnected": "[!! Disconnected !!]",
+  "textCount": "[!! Count !!]",
+  "textRound": "[!! Round !!]",
+  "textTurn": "[!! Turn !!]",
+  "textSettlement": "[!! Your settlement !!]",
+  "textPoints": "[!! Points !!]",
+  "textLeaderboardCounted": "[!! Counted for the leaderboard !!]",
+  "textLeaderboardUncounted": "[!! Not counted for the leaderboard !!]",
+  "textAcknowledge": "[!! Got it !!]",
+  "textAwardVote": "[!! Correct vote !!]",
+  "textAwardSurvival": "[!! Survived the vote !!]",
+  "textAwardCompleted": "[!! Match completed !!]",
+  "textAwardWin": "[!! Team win !!]",
+  "textAwardFirstWin": "[!! First win today !!]",
+  "@textModeBriefing": {
+    "description": "Text mode interface: textModeBriefing"
+  },
+  "@textModeScale": {
+    "description": "Text mode interface: textModeScale"
+  },
+  "@textModeRoom": {
+    "description": "Text mode interface: textModeRoom"
+  },
+  "@textModeBargains": {
+    "description": "Text mode interface: textModeBargains"
+  },
+  "@textModeTop": {
+    "description": "Text mode interface: textModeTop"
+  },
+  "@textChooseMode": {
+    "description": "Text mode interface: textChooseMode"
+  },
+  "@textContentLanguage": {
+    "description": "Text mode interface: textContentLanguage"
+  },
+  "@textPack": {
+    "description": "Text mode interface: textPack"
+  },
+  "@textUnavailable": {
+    "description": "Text mode interface: textUnavailable"
+  },
+  "@textWithdrawn": {
+    "description": "Text mode interface: textWithdrawn"
+  },
+  "@textConnect": {
+    "description": "Text mode interface: textConnect"
+  },
+  "@textCreate": {
+    "description": "Text mode interface: textCreate"
+  },
+  "@textJoin": {
+    "description": "Text mode interface: textJoin"
+  },
+  "@textConfirm": {
+    "description": "Text mode interface: textConfirm"
+  },
+  "@textPreview": {
+    "description": "Text mode interface: textPreview"
+  },
+  "@textCancel": {
+    "description": "Text mode interface: textCancel"
+  },
+  "@textRespond": {
+    "description": "Text mode interface: textRespond"
+  },
+  "@textPlace": {
+    "description": "Text mode interface: textPlace"
+  },
+  "@textReplace": {
+    "description": "Text mode interface: textReplace"
+  },
+  "@textOffer": {
+    "description": "Text mode interface: textOffer"
+  },
+  "@textTop": {
+    "description": "Text mode interface: textTop"
+  },
+  "@textAccept": {
+    "description": "Text mode interface: textAccept"
+  },
+  "@textRefuse": {
+    "description": "Text mode interface: textRefuse"
+  },
+  "@textReady": {
+    "description": "Text mode interface: textReady"
+  },
+  "@textStart": {
+    "description": "Text mode interface: textStart"
+  },
+  "@textLeave": {
+    "description": "Text mode interface: textLeave"
+  },
+  "@textKeepWaiting": {
+    "description": "Text mode interface: textKeepWaiting"
+  },
+  "@textChangeMode": {
+    "description": "Text mode interface: textChangeMode"
+  },
+  "@textWaiting": {
+    "description": "Text mode interface: textWaiting"
+  },
+  "@textSync": {
+    "description": "Text mode interface: textSync"
+  },
+  "@textUpgrade": {
+    "description": "Text mode interface: textUpgrade"
+  },
+  "@textStale": {
+    "description": "Text mode interface: textStale"
+  },
+  "@textError": {
+    "description": "Text mode interface: textError"
+  },
+  "@textUnknownPrompt": {
+    "description": "Text mode interface: textUnknownPrompt"
+  },
+  "@textBoard": {
+    "description": "Text mode interface: textBoard"
+  },
+  "@textHistory": {
+    "description": "Text mode interface: textHistory"
+  },
+  "@textHand": {
+    "description": "Text mode interface: textHand"
+  },
+  "@textDraw": {
+    "description": "Text mode interface: textDraw"
+  },
+  "@textRating": {
+    "description": "Text mode interface: textRating"
+  },
+  "@textSlot": {
+    "description": "Text mode interface: textSlot"
+  },
+  "@textTarget": {
+    "description": "Text mode interface: textTarget"
+  },
+  "@textSystem": {
+    "description": "Text mode interface: textSystem"
+  },
+  "@textSpectating": {
+    "description": "Text mode interface: textSpectating"
+  },
+  "@textRetry": {
+    "description": "Text mode interface: textRetry"
+  },
+  "@textRematch": {
+    "description": "Text mode interface: textRematch"
+  },
+  "@textChat": {
+    "description": "Text mode interface: textChat"
+  },
+  "@textSend": {
+    "description": "Text mode interface: textSend"
+  },
+  "@textPoke": {
+    "description": "Text mode interface: textPoke"
+  },
+  "@textVote": {
+    "description": "Text mode interface: textVote"
+  },
+  "@textAbstain": {
+    "description": "Text mode interface: textAbstain"
+  },
+  "@textReadyHint": {
+    "description": "Text mode interface: textReadyHint"
+  },
+  "@textPrivate": {
+    "description": "Text mode interface: textPrivate"
+  },
+  "@textResults": {
+    "description": "Text mode interface: textResults"
+  },
+  "@textOfferPending": {
+    "description": "Text mode interface: textOfferPending"
+  },
+  "@textDeadline": {
+    "description": "Text mode interface: textDeadline"
+  },
+  "@textRoomCode": {
+    "description": "Text mode interface: textRoomCode"
+  },
+  "@textQuickPlay": {
+    "description": "Text mode interface: textQuickPlay"
+  },
+  "@textLocalRoom": {
+    "description": "Text mode interface: textLocalRoom"
+  },
+  "@textReturnMenu": {
+    "description": "Text mode interface: textReturnMenu"
+  },
+  "@textPreviousPage": {
+    "description": "Public evidence paging control."
+  },
+  "@textNextPage": {
+    "description": "Public evidence paging control."
+  },
+  "@textRules": {
+    "description": "Text match interface: textRules."
+  },
+  "@textPlayers": {
+    "description": "Text match interface: textPlayers."
+  },
+  "@textRewardsOn": {
+    "description": "Text match interface: textRewardsOn."
+  },
+  "@textRewardsOff": {
+    "description": "Text match interface: textRewardsOff."
+  },
+  "@textBriefingInstruction": {
+    "description": "Text match interface: textBriefingInstruction."
+  },
+  "@textScaleInstruction": {
+    "description": "Text match interface: textScaleInstruction."
+  },
+  "@textRoomInstruction": {
+    "description": "Text match interface: textRoomInstruction."
+  },
+  "@textBargainsInstruction": {
+    "description": "Text match interface: textBargainsInstruction."
+  },
+  "@textTopInstruction": {
+    "description": "Text match interface: textTopInstruction."
+  },
+  "@textRunoff": {
+    "description": "Text match interface: textRunoff."
+  },
+  "@textAutomatic": {
+    "description": "Text match interface: textAutomatic."
+  },
+  "@textSeed": {
+    "description": "Text match interface: textSeed."
+  },
+  "@textDisconnected": {
+    "description": "Text match interface: textDisconnected."
+  },
+  "@textCount": {
+    "description": "Text match interface: textCount."
+  },
+  "@textRound": {
+    "description": "Text match interface: textRound."
+  },
+  "@textTurn": {
+    "description": "Text match interface: textTurn."
+  },
+  "@textSettlement": {
+    "description": "Private text match receipt: textSettlement."
+  },
+  "@textPoints": {
+    "description": "Private text match receipt: textPoints."
+  },
+  "@textLeaderboardCounted": {
+    "description": "Private text match receipt: textLeaderboardCounted."
+  },
+  "@textLeaderboardUncounted": {
+    "description": "Private text match receipt: textLeaderboardUncounted."
+  },
+  "@textAcknowledge": {
+    "description": "Private text match receipt: textAcknowledge."
+  },
+  "@textAwardVote": {
+    "description": "Private text match receipt: textAwardVote."
+  },
+  "@textAwardSurvival": {
+    "description": "Private text match receipt: textAwardSurvival."
+  },
+  "@textAwardCompleted": {
+    "description": "Private text match receipt: textAwardCompleted."
+  },
+  "@textAwardWin": {
+    "description": "Private text match receipt: textAwardWin."
+  },
+  "@textAwardFirstWin": {
+    "description": "Private text match receipt: textAwardFirstWin."
+  },
+  "textAutoPass": "[!! Auto Pass !!]",
+  "@textAutoPass": {
+    "description": "Public text action evidence: textAutoPass."
+  },
+  "textReasonTimeout": "[!! Time expired !!]",
+  "@textReasonTimeout": {
+    "description": "Public text action evidence: textReasonTimeout."
+  },
+  "textReasonDisconnect": "[!! Disconnected player !!]",
+  "@textReasonDisconnect": {
+    "description": "Public text action evidence: textReasonDisconnect."
+  },
+  "textReasonNoRecipient": "[!! No eligible recipient !!]",
+  "@textReasonNoRecipient": {
+    "description": "Public text action evidence: textReasonNoRecipient."
+  },
+  "textReasonTransition": "[!! Phase ended !!]",
+  "@textReasonTransition": {
+    "description": "Public text action evidence: textReasonTransition."
+  },
+  "textInterrupted": "[!! Match interrupted !!]",
+  "@textInterrupted": {
+    "description": "Authoritative match verdict: textInterrupted."
+  },
+  "textLowPopulation": "[!! Match ended with too few players !!]",
+  "@textLowPopulation": {
+    "description": "Authoritative match verdict: textLowPopulation."
+  },
+  "textPrototype": "[Þřöţöţýþé šéššîöñ · ñö řéŵåřđš öř ļéåđéřɓöåřđ çřéđîţ — expanded]",
+  "@textPrototype": {
+    "description": "Text mode interface: textPrototype"
+  },
+  "textPersistencePending": "[Ýöûř mövé îš ŵåîţîñĝ ţö ɓé šåvéđ. Řéţřý ţĥé šåmé řéqûéšţ.]",
+  "@textPersistencePending": {
+    "description": "Text mode interface: textPersistencePending"
+  },
+  "textRateLimited": "[Ţöö måñý řéqûéšţš. Ŵåîţ, ţĥéñ řéţřý ţĥé šåmé řéqûéšţ.]",
+  "@textRateLimited": {
+    "description": "Text mode interface: textRateLimited"
+  },
+  "textChatHidden": "[Méššåĝé ĥîđđéñ — expanded]",
+  "@textChatHidden": {
+    "description": "Text mode interface: textChatHidden"
+  },
+  "textPoked": "[Ÿôû ŵëřë þôķëð]",
+  "@textPoked": {
+    "description": "Brief accessible feedback when a new live poke targets this player."
+  },
+  "safetyTitle": "[ Safety & privacy ——— ]",
+  "@safetyTitle": {
+    "description": "Safety and account controls: safetyTitle"
+  },
+  "safetyIntro": "[ Your controls, your account. Reports are private and available without accepting content terms. ——— ]",
+  "@safetyIntro": {
+    "description": "Safety and account controls: safetyIntro"
+  },
+  "safetyTerms": "[ User terms ——— ]",
+  "@safetyTerms": {
+    "description": "Safety and account controls: safetyTerms"
+  },
+  "safetyTermsUnavailable": "[ User terms are not published yet. Typed chat and contributions remain unavailable. ——— ]",
+  "@safetyTermsUnavailable": {
+    "description": "Safety and account controls: safetyTermsUnavailable"
+  },
+  "safetyAccept": "[ Accept these terms ——— ]",
+  "@safetyAccept": {
+    "description": "Safety and account controls: safetyAccept"
+  },
+  "safetyAccepted": "[ Current terms accepted ——— ]",
+  "@safetyAccepted": {
+    "description": "Safety and account controls: safetyAccepted"
+  },
+  "safetyTermsRequired": "[ Review and accept the current user terms to send typed chat. Quick Chat is still available. ——— ]",
+  "@safetyTermsRequired": {
+    "description": "Safety and account controls: safetyTermsRequired"
+  },
+  "safetyBlocks": "[ Blocked accounts ——— ]",
+  "@safetyBlocks": {
+    "description": "Safety and account controls: safetyBlocks"
+  },
+  "safetyBlocksEmpty": "[ No blocked accounts on this page. ——— ]",
+  "@safetyBlocksEmpty": {
+    "description": "Safety and account controls: safetyBlocksEmpty"
+  },
+  "safetyNext": "[ Next page ——— ]",
+  "@safetyNext": {
+    "description": "Safety and account controls: safetyNext"
+  },
+  "safetyUnblock": "[ Unblock ——— ]",
+  "@safetyUnblock": {
+    "description": "Safety and account controls: safetyUnblock"
+  },
+  "safetyBlock": "[ Block this player ——— ]",
+  "@safetyBlock": {
+    "description": "Safety and account controls: safetyBlock"
+  },
+  "safetyBlockHint": "[ Blocking hides their authored chat from you and prevents future matching. This match, its votes and scores stay intact. ——— ]",
+  "@safetyBlockHint": {
+    "description": "Safety and account controls: safetyBlockHint"
+  },
+  "safetyBlocked": "[ Player blocked ——— ]",
+  "@safetyBlocked": {
+    "description": "Safety and account controls: safetyBlocked"
+  },
+  "safetySupport": "[ Contact support ——— ]",
+  "@safetySupport": {
+    "description": "Safety and account controls: safetySupport"
+  },
+  "safetyPrivacy": "[ Privacy policy ——— ]",
+  "@safetyPrivacy": {
+    "description": "Safety and account controls: safetyPrivacy"
+  },
+  "safetyRestore": "[ Your saved account could not be restored. Retry when connected or use support to recover the same account. ——— ]",
+  "@safetyRestore": {
+    "description": "Safety and account controls: safetyRestore"
+  },
+  "textReport": "[!! Report text !!]",
+  "textReportConfirm": "[!! Send a report about this text? Choose a reason. !!]",
+  "textReportInappropriate": "[!! Inappropriate content !!]",
+  "textReportIncorrect": "[!! Text or translation error !!]",
+  "textReportOther": "[!! Other content issue !!]",
+  "textReportSend": "[!! Send report !!]",
+  "textReportSent": "[!! Report received. !!]",
+  "textReportFailed": "[!! The report could not be confirmed. Retry the same report. !!]",
+  "oauthTitle": "⟦Yöür áccöünt ···⟧",
+  "oauthIntro": "⟦Lïnk thïs dëvïcë’s prögrëss tö Gööglë ör Fácëböök, ör rëstörë prögrëss yöü álrëády lïnkëd. ···⟧",
+  "oauthLink": "⟦Sávë thïs prögrëss ···⟧",
+  "oauthRestore": "⟦Rëstörë lïnkëd prögrëss ···⟧",
+  "oauthGoogle": "⟦Cöntïnüë wïth Gööglë ···⟧",
+  "oauthFacebook": "⟦Cöntïnüë wïth Fácëböök ···⟧",
+  "oauthPending": "⟦Fïnïsh sïgnïng ïn ïn yöür bröwsër, thën rëtürn hërë. ···⟧",
+  "oauthCheck": "⟦Chëck sïgn-ïn ···⟧",
+  "oauthCancel": "⟦Cáncël sïgn-ïn ···⟧",
+  "oauthOpenBrowser": "⟦Öpën sïgn-ïn ágáïn ···⟧",
+  "oauthSwitchTitle": "⟦Swïtch tö thë lïnkëd áccöünt? ···⟧",
+  "oauthSwitchBody": "⟦Thïs dëvïcë ïs üsïng ánöthër áccöünt. Yöür prögrëss, Nöïn ánd pürchásës wïll rëmáïn sëpárátë; thëy wïll nöt bë mërgëd. ···⟧",
+  "oauthSwitch": "⟦Swïtch áccöünt ···⟧",
+  "oauthKeepCurrent": "⟦Këëp cürrënt áccöünt ···⟧",
+  "oauthSuccess": "⟦Yöür lïnkëd áccöünt ïs rëády. ···⟧",
+  "oauthUnavailable": "⟦Sïgn-ïn ïs ünáváïláblë. Try ágáïn látër. ···⟧",
+  "oauthUnlinked": "⟦Thát sïgn-ïn hás nö lïnkëd Knöwöff áccöünt. Rëtürn tö thë dëvïcë wïth yöür prögrëss ánd lïnk ït thërë fïrst. ···⟧",
+  "oauthConflict": "⟦Thát sïgn-ïn ïs álrëády lïnkëd tö ánöthër áccöünt. Rëstörë ït tö üsë ïts prögrëss, ör chöösë á dïffërënt sïgn-ïn. ···⟧",
+  "oauthExpired": "⟦Thïs sïgn-ïn ëxpïrëd. Stárt ágáïn. ···⟧",
+  "oauthInvalid": "⟦Thïs sïgn-ïn cöüld nöt bë vërïfïëd. Stárt ágáïn. ···⟧",
+  "oauthRateLimited": "⟦Töö mány sïgn-ïn áttëmpts. Try ágáïn látër. ···⟧",
+  "oauthMismatch": "⟦Thë rëtürnëd áccöünt döës nöt mátch thïs dëvïcë. Yöür cürrënt áccöünt ïs ünchángëd. ···⟧",
+  "oauthSessionRequired": "⟦Rëfrësh yöür cürrënt sëssïön tö lïnk ït, ör rëstörë án áccöünt yöü álrëády lïnkëd. ···⟧",
+  "oauthBrowserFailed": "⟦Thë bröwsër cöüld nöt öpën. Rëtry öpënïng sïgn-ïn. ···⟧",
+  "@oauthTitle": {
+    "description": "Account linking and restoration: Title"
+  },
+  "@oauthIntro": {
+    "description": "Account linking and restoration: Intro"
+  },
+  "@oauthLink": {
+    "description": "Account linking and restoration: Link"
+  },
+  "@oauthRestore": {
+    "description": "Account linking and restoration: Restore"
+  },
+  "@oauthGoogle": {
+    "description": "Account linking and restoration: Google"
+  },
+  "@oauthFacebook": {
+    "description": "Account linking and restoration: Facebook"
+  },
+  "@oauthPending": {
+    "description": "Account linking and restoration: Pending"
+  },
+  "@oauthCheck": {
+    "description": "Account linking and restoration: Check"
+  },
+  "@oauthCancel": {
+    "description": "Account linking and restoration: Cancel"
+  },
+  "@oauthOpenBrowser": {
+    "description": "Account linking and restoration: OpenBrowser"
+  },
+  "@oauthSwitchTitle": {
+    "description": "Account linking and restoration: SwitchTitle"
+  },
+  "@oauthSwitchBody": {
+    "description": "Account linking and restoration: SwitchBody"
+  },
+  "@oauthSwitch": {
+    "description": "Account linking and restoration: Switch"
+  },
+  "@oauthKeepCurrent": {
+    "description": "Account linking and restoration: KeepCurrent"
+  },
+  "@oauthSuccess": {
+    "description": "Account linking and restoration: Success"
+  },
+  "@oauthUnavailable": {
+    "description": "Account linking and restoration: Unavailable"
+  },
+  "@oauthUnlinked": {
+    "description": "Account linking and restoration: Unlinked"
+  },
+  "@oauthConflict": {
+    "description": "Account linking and restoration: Conflict"
+  },
+  "@oauthExpired": {
+    "description": "Account linking and restoration: Expired"
+  },
+  "@oauthInvalid": {
+    "description": "Account linking and restoration: Invalid"
+  },
+  "@oauthRateLimited": {
+    "description": "Account linking and restoration: RateLimited"
+  },
+  "@oauthMismatch": {
+    "description": "Account linking and restoration: Mismatch"
+  },
+  "@oauthSessionRequired": {
+    "description": "Account linking and restoration: SessionRequired"
+  },
+  "@oauthBrowserFailed": {
+    "description": "Account linking and restoration: BrowserFailed"
+  },
+  "@textReport": {
+    "description": "Visible-text content report control."
+  },
+  "@textReportConfirm": {
+    "description": "Visible-text content report control."
+  },
+  "@textReportInappropriate": {
+    "description": "Visible-text content report control."
+  },
+  "@textReportIncorrect": {
+    "description": "Visible-text content report control."
+  },
+  "@textReportOther": {
+    "description": "Visible-text content report control."
+  },
+  "@textReportSend": {
+    "description": "Visible-text content report control."
+  },
+  "@textReportSent": {
+    "description": "Visible-text content report control."
+  },
+  "@textReportFailed": {
+    "description": "Visible-text content report control."
+  },
+  "serviceAvatarOwned": "[!! Custom Avatar is already unlocked. Uploading costs no extra Noin. !!]",
+  "@serviceAvatarOwned": {
+    "description": "Custom avatar ownership, screening or activation status."
+  },
+  "serviceAvatarUnavailable": "[!! Avatar screening is unavailable. Your image and unlock are unchanged. !!]",
+  "@serviceAvatarUnavailable": {
+    "description": "Custom avatar ownership, screening or activation status."
+  },
+  "serviceAvatarRejected": "[!! This image was not approved. Choose another image; your unlock remains yours. !!]",
+  "@serviceAvatarRejected": {
+    "description": "Custom avatar ownership, screening or activation status."
+  },
+  "serviceAvatarChanged": "[!! Your account or avatar changed. Select the image again before continuing. !!]",
+  "@serviceAvatarChanged": {
+    "description": "Custom avatar ownership, screening or activation status."
+  },
+  "serviceAvatarUnlock": "[!! Unlock Custom Avatar !!]",
+  "@serviceAvatarUnlock": {
+    "description": "Custom avatar ownership, screening or activation status."
+  },
+  "serviceAvatarUnlockConfirm": "[!! Buy permanent unlock !!]",
+  "@serviceAvatarUnlockConfirm": {
+    "description": "Custom avatar ownership, screening or activation status."
+  },
+  "purchaseTitle": "［In-app purchases !!!］",
+  "purchaseOpening": "［Opening the store… !!!］",
+  "purchasePending": "［Waiting for the store to complete payment. !!!］",
+  "purchaseVerifying": "［Verifying with Knowoff… !!!］",
+  "purchaseVerified": "［Purchase verified. Your account has been updated. !!!］",
+  "purchaseCanceled": "［Purchase canceled. !!!］",
+  "purchaseFailed": "［The purchase could not be completed. !!!］",
+  "purchaseRetryMessage": "［Verification is unfinished. Retry without buying again. !!!］",
+  "purchaseAccountRequired": "［Restore the Knowoff account that owns this purchase. !!!］",
+  "purchaseOwned": "［Premium is already active on this account. !!!］",
+  "purchaseRestore": "［Restore purchases !!!］",
+  "purchaseRetry": "［Retry verification !!!］",
+  "purchaseRestoreHint": "［Restore subscriptions with the same store and Knowoff accounts. Consumed Noin bundles remain in your Knowoff account. !!!］",
+  "purchaseMonthlyTerms": "［Renews monthly at the displayed store price until canceled in the store. !!!］",
+  "purchaseYearlyTerms": "［Renews yearly at the displayed store price until canceled in the store. !!!］",
+  "purchaseManageApple": "［Manage Apple subscriptions !!!］",
+  "purchaseManageGoogle": "［Manage Google Play subscriptions !!!］",
+  "purchaseBuyPrice": "［Buy · {price} !!!］",
+  "@purchaseTitle": {
+    "description": "Native store purchase and restore flow."
+  },
+  "@purchaseOpening": {
+    "description": "Native store purchase and restore flow."
+  },
+  "@purchasePending": {
+    "description": "Native store purchase and restore flow."
+  },
+  "@purchaseVerifying": {
+    "description": "Native store purchase and restore flow."
+  },
+  "@purchaseVerified": {
+    "description": "Native store purchase and restore flow."
+  },
+  "@purchaseCanceled": {
+    "description": "Native store purchase and restore flow."
+  },
+  "@purchaseFailed": {
+    "description": "Native store purchase and restore flow."
+  },
+  "@purchaseRetryMessage": {
+    "description": "Native store purchase and restore flow."
+  },
+  "@purchaseAccountRequired": {
+    "description": "Native store purchase and restore flow."
+  },
+  "@purchaseOwned": {
+    "description": "Native store purchase and restore flow."
+  },
+  "@purchaseRestore": {
+    "description": "Native store purchase and restore flow."
+  },
+  "@purchaseRetry": {
+    "description": "Native store purchase and restore flow."
+  },
+  "@purchaseRestoreHint": {
+    "description": "Native store purchase and restore flow."
+  },
+  "@purchaseMonthlyTerms": {
+    "description": "Native store purchase and restore flow."
+  },
+  "@purchaseYearlyTerms": {
+    "description": "Native store purchase and restore flow."
+  },
+  "@purchaseManageApple": {
+    "description": "Native store purchase and restore flow."
+  },
+  "@purchaseManageGoogle": {
+    "description": "Native store purchase and restore flow."
+  },
+  "@purchaseBuyPrice": {
+    "description": "Native store purchase and restore flow.",
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "bonusPremium": "[Þřémïüm böñüs ƒöř ýöü]",
+  "@bonusPremium": {
+    "description": "Title for a confirmed Premium match bonus."
+  },
+  "bonusRewardedAd": "[Åð řéŵåřð ƒöř ýöü]",
+  "@bonusRewardedAd": {
+    "description": "Title for a server-verified rewarded-ad bonus."
+  },
+  "bonusCredited": "[{amount} Noin åððéð ţö ýöüř båļåñçé]",
+  "@bonusCredited": {
+    "description": "Actual server-confirmed Noin credited, including zero.",
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "bonusCapped": "[Ţĥé ðåïļý éåřñïñĝ ļïmïţ řéðüçéð ţĥïs böñüs.]",
+  "@bonusCapped": {
+    "description": "Explains a bonus limited by original-day earning caps."
+  },
+  "bonusSyncRetry": "[Ýöüř böñüs řéçéïþţš çöüļð ñöţ bé šýñçéð. Řéţřý ţö çĥéçķ ţĥéïř šţåţüš.]",
+  "@bonusSyncRetry": {
+    "description": "Receipt read or dismissal synchronization failed; retry does not grant currency."
+  },
+  "bonusRequested": "[Böñüs béƒöřé ţĥé ðåïļý ļïmïţ: {amount} Noin]",
+  "@bonusRequested": {
+    "description": "Requested bonus before applying original-day caps, not an extra credit.",
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "rewardWatchAd": "[Ŵáţçĥ áñ áđ ƒöŕ á máţçĥ böñüš ·········]",
+  "@rewardWatchAd": {
+    "description": "Explicit action for a server-authorized rewarded ad."
+  },
+  "rewardAdDetails": "[Ýöüŕ böñüš ïš çöñƒïŕmèđ bý ţĥè šèŕvèŕ. Đáïlý lïmïţš áþþlý. ·············]",
+  "@rewardAdDetails": {
+    "description": "Server confirmation and daily-cap explanation for rewarded ads."
+  },
+  "rewardPrivacyChoices": "[Áđ þŕïváçý çĥöïçèš ······]",
+  "@rewardPrivacyChoices": {
+    "description": "Entry to the native required ad privacy choices form."
+  }
+}

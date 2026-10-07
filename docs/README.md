@@ -1,0 +1,51 @@
+# 📚 `docs/`
+
+This folder is the human-readable side of the project. Source of truth for
+agents on **what the project is and where it's going**; source of truth for
+humans on **the project's design and history**.
+
+## Layout
+
+| Path | Purpose | Audience |
+|---|---|---|
+| [`../BLUEPRINT.md`](../BLUEPRINT.md) | **The normative Knowoff spec** — game rules, tech stack, architecture, economy, media engine, protocol, infra, product baseline. | Everyone. Read first. |
+| [`planning/ROADMAP.md`](planning/ROADMAP.md) | The sequenced implementation plan — phases, checkboxes, proof tests. | Agents implementing a phase. |
+| [`code/`](code/) | Module-level documentation (architecture, modules, APIs). | Devs joining the codebase. |
+| [`project/`](project/) | The project's charter, decision log, glossary — [`GLOSSARY.md`](project/GLOSSARY.md) holds the normative Knowoff terminology. | New contributors. |
+| [`design/`](design/) | Design docs (DESIGN.md) and ADRs. | Reviewers + future-you. |
+| [`design/DESIGN-text-game-modes.md`](design/DESIGN-text-game-modes.md) | Adopted five-mode design rationale and illustrative examples; current proof lives in the roadmap. | Product planning + playtesting. |
+| [`design/DESIGN-text-transition.md`](design/DESIGN-text-transition.md) | Source audit, protocol/data contracts, migration, retirement and verification. | Engineering + operations. |
+| [`product/BUSINESS_PLAN.md`](product/BUSINESS_PLAN.md) | Customer strategy, content operations, economics assumptions and launch gates. | Product + business. |
+| [`reports/2026-09-12-text-transition-doc-audit.md`](reports/2026-09-12-text-transition-doc-audit.md) | Complete documentation coverage and retained historical exceptions. | Reviewers. |
+| [`reports/2026-09-12-text-phase1-validation.md`](reports/2026-09-12-text-phase1-validation.md) | Contract/config, validation and migration foundation evidence; remaining Phase 1 gates. | Engineering + reviewers. |
+| [`reports/2026-09-12-text-phase1-continuation.md`](reports/2026-09-12-text-phase1-continuation.md) | Deployment attestation, wallet transaction review and additive migration/backfill continuation proofs. | Engineering + operators. |
+| [`reports/2026-09-12-text-transition-resumption.md`](reports/2026-09-12-text-transition-resumption.md) | Active implementation, independent reviews, real-service tests and remaining release evidence. | Engineering + resuming agents. |
+| [`reports/2026-09-19-text-transition-resumption.md`](reports/2026-09-19-text-transition-resumption.md) | Credit-interruption recovery, Phase 6.4a physical cutover controller plan/proofs and remaining work. | Engineering + resuming agents. |
+| [`reports/2026-09-12-text-transition-pause.md`](reports/2026-09-12-text-transition-pause.md) | End-of-day implementation checkpoint, targeted test evidence and unfinished validation/work. | Resuming agents + owner. |
+| [`reports/2026-09-12-text-phase1-reproductions.md`](reports/2026-09-12-text-phase1-reproductions.md) | Replayable legacy draw, pack, reconnect, sequence and lock defect evidence. | Engine + protocol implementers. |
+| [`launch/`](launch/) | Release-gated copy, clip brief and migration runbook. | Launch operators. |
+| [`planning/`](planning/) | The **ROADMAP** — single source of truth for sequenced work. | Agents + humans. |
+| [`tracking/`](tracking/) | How the `docs/tracking/tracking.csv` workflow is used; [`context.md`](tracking/context.md) is the project context pack. | Agents. |
+| [`guides/PLAYTEST.md`](guides/PLAYTEST.md) | Private prototype startup, separate players, resets and builds. | Playtest hosts. |
+| [`reports/2026-09-19-private-playtest.md`](reports/2026-09-19-private-playtest.md) | Ten-cell UI checklist, observed findings and known limitations. | Playtest hosts + engineering. |
+| [`guides/`](guides/) | Cross-cutting how-tos: agent operating model, model profiles, MCP usage. | Agents + ops. |
+| [`reports/`](reports/) | Generated reports (audit, status snapshots). | Reviewers. |
+| [`.agents/skills/`](../.agents/skills/) | The **skill library** — load on demand. | Agents. |
+
+## Discoverability rule
+
+For content work, start with the Blueprint's Media Engine chapter, the
+[humor development guide](../content/humor-development.md),
+[Curator Guide](../content/curator-guide.md) and
+[current server content mechanics](code/MODULE-media-engine.md).
+The target uses plain text only under [ADR-012](design/ADR-012-text-only-selectable-modes.md).
+The current runtime uses five text modes; historical source audits describe the
+retired image/association paths. Authoring/review/integration skills follow the current Blueprint
+and content guides; old static-image guidance cannot re-enable retired gameplay.
+The [active Roadmap](planning/ROADMAP.md) holds transition work. Historical proof
+and the September 11 content audit remain in the
+[pre-text snapshot](planning/ROADMAP-pre-text-20260912.md#content-readiness-audit--2026-09-11).
+
+Before creating a new doc, search for an existing one. Templates live next
+to their READMEs (e.g. [`code/MODULE.template.md`](code/MODULE.template.md)).
+Use them.

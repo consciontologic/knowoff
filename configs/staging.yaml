@@ -1,0 +1,12 @@
+# Staging overlay.
+
+app:
+  env: staging
+
+log:
+  level: debug
+  format: json
+
+server:
+  bind_addr: 0.0.0.0
+  port: 8080

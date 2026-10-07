@@ -1,0 +1,78 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  server:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: server/go.mod
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: all Go and Python checks with disposable integration services
+        run: python3 xops/test/tests-lints.py --suite go --suite python --report-json validation-server.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: validation-server
+          path: validation-server.json
+      - name: build server image
+        run: cd server && docker build -t knowoffd:test .
+
+  client:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+      - name: flutter pub get
+        run: cd client && flutter pub get
+      - name: generate localizations
+        run: cd client && flutter gen-l10n
+      - name: Flutter tests and lint with skip accounting
+        run: python3 xops/test/tests-lints.py --suite client --report-json validation-client.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: validation-client
+          path: validation-client.json
+      - name: build Android
+        run: cd client && flutter build apk --debug
+      - name: build Web
+        run: cd client && flutter build web
+      - name: report app size
+        run: |
+          cd client
+          APK_SIZE=$(stat -c%s build/app/outputs/flutter-apk/app-debug.apk)
+          echo "APK size: $APK_SIZE bytes"
+          # Owner decision 2026-09-19: package size is informational, not a gate.
+
+  ios:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+      - name: flutter pub get
+        run: cd client && flutter pub get
+      - name: generate localizations
+        run: cd client && flutter gen-l10n
+      - name: build iOS
+        run: cd client && flutter build ios --no-codesign
+
+  compose:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: compose config check
+        run: cd infra/compose && docker compose --profile core config > /dev/null

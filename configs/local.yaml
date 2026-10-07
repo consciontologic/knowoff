@@ -1,0 +1,29 @@
+# Local development overlay.
+# Loaded when KNOWOFF_CONFIG=configs/local.yaml (default for docker compose dev).
+
+app:
+  env: local
+
+log:
+  level: debug
+  format: text         # emoji severity/topic labels; safe for Docker stdout
+  add_caller: true
+
+server:
+  bind_addr: 0.0.0.0
+  port: 8080
+  admin_addr: "0.0.0.0:9090"
+  admin_bind_addr: 0.0.0.0
+  admin_port: 9090
+  metrics_bind_addr: 0.0.0.0
+  metrics_port: 9091
+  # The v2 WebSocket upgrade requires exact origins; a REST wildcard is not enough.
+  allowed_origins:
+    - 'http://localhost:8000'
+    - 'http://127.0.0.1:8000'
+    - 'http://0.0.0.0:8000'
+    - 'https://app.knowoff.local'
+
+tuning:
+  economy:
+    free_daily_quickplay_matches: 10000   # local dev: effectively unlimited
