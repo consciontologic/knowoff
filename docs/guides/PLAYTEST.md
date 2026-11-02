@@ -47,8 +47,7 @@ ownership to a companion. After rejoining, stop the bot command, click Refresh
 to recover host controls, and add companions again. This recovery was checked
 in the six-seat lobby; it is not proof of seamless active-match reconnect.
 
-`make web.run` is an interactive Flutter debug process using `.tools/flutter`
-when present, otherwise the SDK on PATH. Renderer resources are served locally
+`make web.run` is an interactive Flutter debug process using the SDK on PATH. Renderer resources are served locally
 so a blocked CDN cannot leave the debug page blank. Its ordinary terminal controls remain
 available. Server source is mounted into the Air development container;
 `make server.rebuild` retains the private prototype overlay. `make down`
@@ -66,7 +65,7 @@ site data if you reused an origin with accounts from a different database.
 ## Agent playtest startup
 
 Prerequisites: Docker with Compose v2, Python 3 and a compatible Flutter SDK
-(the workspace `.tools/flutter` is preferred; otherwise `flutter` on PATH).
+(`flutter` on PATH).
 Android builds also require the project's configured Android SDK/JDK. The
 launcher installs no operating-system packages and makes no hosts-file changes.
 Run from the repository root:

@@ -1,7 +1,6 @@
 # local state
 .venv/
 .tools/ffmpeg/
-.tools/flutter/
 __pycache__/
 *.pyc
 .pytest_cache/

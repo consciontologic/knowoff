@@ -35,10 +35,9 @@ def compose(*args):
 
 
 def flutter():
-    local = REPO_ROOT / '.tools/flutter/bin/flutter'
-    executable = str(local) if local.is_file() else shutil.which('flutter')
+    executable = shutil.which('flutter')
     if not executable:
-        raise SystemExit('Flutter SDK required: use the project SDK or put a compatible Flutter on PATH.')
+        raise SystemExit('Flutter SDK required: put a compatible Flutter on PATH.')
     return executable
 
 

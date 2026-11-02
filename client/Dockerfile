@@ -1,7 +1,7 @@
 # Build stage: compile the Flutter web release bundle.
 FROM debian:bookworm-slim AS builder
 
-ARG FLUTTER_VERSION=3.47.1
+ARG FLUTTER_VERSION=3.47.9
 RUN apt-get update && apt-get install -y --no-install-recommends \
       git curl ca-certificates unzip xz-utils \
     && rm -rf /var/lib/apt/lists/*

@@ -51,10 +51,16 @@ class PlaytestOpsTests(unittest.TestCase):
         self.assertIn(str(module.COMPOSE_FILE), command)
         self.assertNotIn('--remove-orphans', command)
 
-    def test_workspace_sdk_is_preferred(self):
+    def test_flutter_comes_from_path(self):
         module = self.module()
-        with patch.object(module.Path, 'is_file', return_value=True):
-            self.assertEqual(module.flutter(), str(module.REPO_ROOT / '.tools/flutter/bin/flutter'))
+        with patch.object(module.shutil, 'which', return_value='/opt/flutter/bin/flutter'):
+            self.assertEqual(module.flutter(), '/opt/flutter/bin/flutter')
+
+    def test_missing_flutter_exits(self):
+        module = self.module()
+        with patch.object(module.shutil, 'which', return_value=None):
+            with self.assertRaises(SystemExit):
+                module.flutter()
 
 
 class PlaytestInfrastructureTests(unittest.TestCase):

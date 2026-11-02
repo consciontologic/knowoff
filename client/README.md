@@ -13,19 +13,17 @@ interrupts its in-memory match. The separate `playtest.*` commands serve agent
 verification. See [the complete manual workflow](../docs/guides/PLAYTEST.md#manual-debugging-with-bot-companions)
 for switching stacks, bot lifecycle and saved-account limitations.
 
-## Local Flutter SDK and editor diagnostics
+## Flutter SDK and editor diagnostics
 
 The client requires Flutter ≥3.44.0 and Dart ≥3.12.0 as declared in
 `pubspec.yaml`. Older analyzers report misleading syntax and missing-parameter
-errors for newer Dart features. The repository's VS Code settings select
-`.tools/flutter` at the repository root; this SDK is ignored by Git. Put a
-compatible Flutter SDK there, or override `dart.flutterSdkPath` with your own
-compatible installation. This workstation uses Flutter 3.47.1 / Dart 3.13.1.
+errors for newer Dart features. Use a compatible Flutter SDK on `PATH`; the
+editor picks it up from there, or set `dart.flutterSdkPath` to another
+installation.
 
 From the repository root:
 
 ```bash
-export PATH="$PWD/.tools/flutter/bin:$PATH"
 cd client
 flutter pub get
 flutter gen-l10n
